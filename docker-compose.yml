@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: agentic-rag-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ragdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - agentic_rag_postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: agentic-rag-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    volumes:
+      - agentic_rag_es_data:/usr/share/elasticsearch/data
+    restart: unless-stopped
+
+volumes:
+  agentic_rag_postgres_data:
+  agentic_rag_es_data:
