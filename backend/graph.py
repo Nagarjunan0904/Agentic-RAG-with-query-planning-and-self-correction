@@ -34,4 +34,4 @@ graph.add_edge('generator', 'evaluator')
 graph.add_conditional_edges('evaluator', should_retry,
     {'retry': 'reranker', 'end': END})
 
-app = graph.compile()
+rag_graph = graph.compile()
