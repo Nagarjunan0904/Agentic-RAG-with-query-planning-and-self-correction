@@ -11,3 +11,4 @@ class AgentState(TypedDict):
     retry_count:    int
     retry_reason:   Optional[str]
     latency_ms:     dict
+    query_vector:   Optional[List[float]]   # set by self_evaluator (HyDE) for retry
