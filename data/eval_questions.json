@@ -1,0 +1,636 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between RAG and fine-tuning for adapting large language models?",
+    "ground_truth": "RAG retrieves relevant documents at inference time to ground responses in external knowledge, while fine-tuning updates model weights on task-specific data during training. RAG is more flexible and updatable without retraining, whereas fine-tuning embeds knowledge directly into model parameters but requires retraining to update.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 2,
+    "question": "How does HNSW indexing work for approximate nearest neighbor search?",
+    "ground_truth": "HNSW builds a multi-layer graph where each layer is a subset of nodes from the layer below. Search begins at the top layer, greedily navigating toward the query vector, then descends layer by layer. This hierarchical structure provides logarithmic search complexity with high recall. Key parameters are ef_construction (build-time search width) and M (maximum connections per node).",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 3,
+    "question": "What is the BM25 algorithm and how does it rank documents?",
+    "ground_truth": "BM25 is a probabilistic ranking function that scores documents based on term frequency (TF) and inverse document frequency (IDF), with saturation to prevent high-frequency terms from dominating. It improves on TF-IDF by adding document length normalization and a term frequency saturation parameter k1, making it effective for keyword-based retrieval.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 4,
+    "question": "Explain the concept of dense vector embeddings in NLP.",
+    "ground_truth": "Dense vector embeddings are fixed-length numerical representations of text that capture semantic meaning in continuous high-dimensional space (typically 256–1536 dimensions). Unlike sparse bag-of-words representations, embeddings place semantically similar texts close together in the vector space, enabling semantic similarity comparisons via cosine or dot-product distance.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between sparse and dense retrieval in information retrieval?",
+    "ground_truth": "Sparse retrieval uses lexical matching via inverted indexes and term frequency statistics (e.g., BM25), excelling on exact keyword matches and named entities. Dense retrieval uses neural embeddings to find semantically similar documents even without term overlap, excelling on conceptual and paraphrase queries. Hybrid approaches combining both typically outperform either alone.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 6,
+    "question": "How does the attention mechanism work in transformer neural networks?",
+    "ground_truth": "Scaled dot-product attention computes similarity between query and key vectors, normalizes with softmax, then uses the resulting weights to take a weighted sum of value vectors. Multi-head attention runs multiple attention heads in parallel, allowing the model to attend to different types of relationships simultaneously. This enables capturing long-range dependencies that recurrent architectures struggle with.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 7,
+    "question": "What is retrieval-augmented generation (RAG) and what problem does it solve?",
+    "ground_truth": "RAG combines a retrieval system with a generative language model. At query time it retrieves relevant documents from a knowledge base, then conditions the generator on both the query and retrieved context. This solves the problem of LLMs having stale or limited knowledge by grounding responses in up-to-date, domain-specific documents without requiring full model retraining.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 8,
+    "question": "Explain the purpose of reranking in a search pipeline.",
+    "ground_truth": "Reranking is a second-stage refinement step that re-scores an initial set of retrieved candidates using a more accurate but computationally expensive cross-encoder model. The first stage retrieves many candidates quickly; reranking narrows them to the highest-quality results. This improves precision while keeping the overall pipeline efficient since the expensive model only processes a small candidate set.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 9,
+    "question": "What are the advantages and disadvantages of fine-tuning large language models?",
+    "ground_truth": "Advantages: embeds domain knowledge directly into model parameters, enables faster inference with no retrieval step, and can improve task-specific performance. Disadvantages: expensive retraining is required to update knowledge, risks catastrophic forgetting of general capabilities, needs curated training data, and the model can still hallucinate on out-of-distribution queries.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 10,
+    "question": "What is cosine similarity and how is it used in vector search?",
+    "ground_truth": "Cosine similarity measures the angle between two vectors, returning a value from -1 to 1 where 1 means identical direction. It is used in vector search to measure semantic similarity between query and document embeddings regardless of vector magnitude. Most vector databases use cosine similarity or inner product as their distance metric for nearest neighbor retrieval.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 11,
+    "question": "How does approximate nearest neighbor (ANN) search differ from exact nearest neighbor search?",
+    "ground_truth": "Exact nearest neighbor search exhaustively compares the query against all vectors, guaranteeing the true nearest neighbor but scaling linearly with dataset size. ANN algorithms such as HNSW, IVF, and LSH trade a small amount of recall for dramatically better speed by using index structures that prune the search space, typically achieving sub-linear query time with 90–99% recall.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 12,
+    "question": "What is chunking in document processing for retrieval-augmented generation?",
+    "ground_truth": "Chunking splits long documents into smaller text segments before embedding, since embedding models have fixed input token limits and longer texts produce less focused representations. Common strategies include fixed-size chunking by token count, sentence-level chunking, and recursive character splitting. Chunk size affects retrieval granularity: smaller chunks increase precision but may lose context; larger chunks retain context but dilute embedding specificity.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 13,
+    "question": "What does a cross-encoder do in search and how does it differ from a bi-encoder?",
+    "ground_truth": "A bi-encoder independently embeds queries and documents into separate vectors, enabling fast retrieval via ANN search. A cross-encoder takes the query and document concatenated as joint input, allowing full cross-attention between them and producing a more accurate relevance score. Cross-encoders are too slow for first-stage retrieval over large corpora but are highly effective for reranking a small candidate set.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 14,
+    "question": "What is the difference between a vector database and a relational database?",
+    "ground_truth": "Relational databases store structured data in tables optimized for exact lookups and SQL joins using B-tree and hash indexes. Vector databases store high-dimensional embedding vectors and are optimized for similarity search using ANN index structures like HNSW or IVF. Vector databases suit semantic search, recommendation, and similarity retrieval; relational databases excel at transactional and structured queries.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 15,
+    "question": "How do inverted indexes work in search engines like Elasticsearch?",
+    "ground_truth": "An inverted index maps each unique term to the list of document IDs where that term appears, analogous to a book's index. During indexing, documents are tokenized and normalized; each term maps to a posting list. At query time, posting lists for query terms are looked up and merged using Boolean or ranked retrieval, making term-based search fast regardless of corpus size.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 16,
+    "question": "What is the concept of a context window in large language models?",
+    "ground_truth": "A context window is the maximum number of tokens an LLM can process in a single forward pass, including both the prompt and output. Tokens beyond the limit are truncated. For RAG, the context window constrains how many retrieved documents can be passed to the generator simultaneously. Modern models range from 8K to over 1M tokens.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 17,
+    "question": "What is the difference between precision and recall in information retrieval?",
+    "ground_truth": "Precision is the fraction of retrieved documents that are relevant, measuring how many results are useful. Recall is the fraction of all relevant documents that were retrieved, measuring how many relevant results were found. They trade off: maximizing precision may miss relevant results; maximizing recall may include irrelevant ones. F1-score is the harmonic mean; NDCG and MAP are common ranked evaluation metrics.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 18,
+    "question": "How does quantization affect vector search performance and accuracy?",
+    "ground_truth": "Quantization compresses full-precision float32 vectors into lower-precision representations such as int8 or binary, reducing memory usage and speeding up distance computations. Product Quantization encodes subvectors via codebooks. The trade-off is a small loss in recall (typically 1–5% for int8) versus significant reductions in memory footprint and query latency.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 19,
+    "question": "What are the main challenges in building production RAG systems?",
+    "ground_truth": "Key challenges include: poor retrieval quality degrading answer quality; context window limits restricting how much retrieved text fits the prompt; hallucination when retrieved context is insufficient; latency from multiple retrieval and generation calls; keeping the knowledge base current; and handling multi-hop questions that require synthesizing information from multiple sources.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 20,
+    "question": "Explain the concept of hallucination in large language models.",
+    "ground_truth": "Hallucination occurs when an LLM generates factually incorrect or fabricated statements that sound plausible. It arises because LLMs are trained to produce fluent text without explicit grounding. Intrinsic hallucination contradicts the provided source material; extrinsic hallucination adds unverifiable facts. RAG mitigates this by conditioning generation on retrieved evidence.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 21,
+    "question": "What is the RAGAS evaluation framework and what does it measure?",
+    "ground_truth": "RAGAS is an evaluation framework for RAG pipelines that measures four metrics: Faithfulness (is the answer grounded in retrieved context), Answer Relevancy (does the answer address the question), Context Recall (are all relevant facts retrieved), and Context Precision (what fraction of retrieved context is useful). It uses an LLM judge to automate evaluation without manual annotation.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 22,
+    "question": "How does Cohere Rerank work to improve search results?",
+    "ground_truth": "Cohere Rerank takes a query and a list of candidate documents and scores each document's relevance using a cross-encoder model trained on large-scale relevance data. Unlike bi-encoder retrieval which computes embeddings independently, the reranker jointly processes query and document, enabling fine-grained relevance scoring. Results are sorted by score and the top-N are returned.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 23,
+    "question": "What is the difference between semantic search and keyword search?",
+    "ground_truth": "Keyword search uses exact or fuzzy term matching with BM25, excelling for precise terminology, entity names, and product codes. Semantic search uses dense vector embeddings to find conceptually similar content even with different vocabulary, excelling for natural language questions and paraphrases. Hybrid approaches combining both retrieval types often outperform either alone.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 24,
+    "question": "How does LangGraph enable stateful multi-step AI agent workflows?",
+    "ground_truth": "LangGraph builds stateful agent graphs where nodes are Python functions transforming a shared state object and edges define control flow, including conditional branching based on state values. The compiled graph supports both synchronous and asynchronous invocation, checkpointing for persistence, and retry loops, enabling complex workflows like RAG with self-correction that would be difficult to express as simple chains.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 25,
+    "question": "What is Hypothetical Document Embedding (HyDE) and how does it improve retrieval?",
+    "ground_truth": "HyDE generates a hypothetical answer to the query using an LLM, then embeds that hypothetical document rather than the original query as the search vector. The intuition is that a hypothetical answer occupies the same embedding space as real relevant documents, providing a better retrieval signal than the question embedding alone — particularly useful when queries are semantically distant from answer-style documents.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 26,
+    "question": "What are the key differences between GPT and BERT transformer architectures?",
+    "ground_truth": "BERT is a bidirectional encoder pre-trained with masked language modeling, producing contextual representations of the full input, suited for classification, NER, and semantic similarity tasks. GPT is a unidirectional (causal) decoder pre-trained with next-token prediction, suited for text generation. BERT excels at understanding; GPT excels at generation. Many modern architectures combine encoder-decoder designs.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 27,
+    "question": "How does Pinecone serverless architecture differ from pod-based vector search?",
+    "ground_truth": "Pod-based vector databases allocate dedicated compute and memory pods per index, providing predictable performance and resource isolation. Pinecone Serverless separates storage from compute: vectors are stored in object storage and query-time compute scales automatically with no always-on pods. This reduces idle costs and eliminates capacity planning, but may have higher per-query latency variance compared to warm dedicated pods.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 28,
+    "question": "Why does the Cohere embed API have separate input_type values for queries and documents?",
+    "ground_truth": "Cohere uses different internal representations depending on whether text will be used as a query or document. input_type='search_query' optimizes the embedding for question-like inputs; input_type='search_document' optimizes for passage-like text being indexed. Mismatching input types degrades retrieval quality because the representations are tuned for asymmetric search where query and document embeddings are compared across different embedding spaces.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 29,
+    "question": "What role does the system prompt play in a RAG answer generation step?",
+    "ground_truth": "The system prompt instructs the LLM to answer only from the provided context, to be concise and factual, and to acknowledge when context is insufficient rather than hallucinating. Without these constraints, LLMs may blend retrieved facts with parametric knowledge, making faithfulness evaluation unreliable. Well-crafted system prompts are critical for grounded, verifiable generation in RAG pipelines.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 30,
+    "question": "What are the trade-offs between chunk size and chunk overlap in RAG preprocessing?",
+    "ground_truth": "Smaller chunks (128–256 tokens) increase retrieval precision since each chunk is more topically focused, but lose surrounding context. Larger chunks (512–1024 tokens) preserve context but dilute embedding specificity. Chunk overlap (10–20%) mitigates boundary effects by repeating content at edges. The optimal setting depends on document type and query style; dense technical documents often benefit from smaller chunks with overlap.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 31,
+    "question": "How does an agentic RAG system differ from a simple RAG pipeline?",
+    "ground_truth": "Simple RAG executes a fixed retrieve-then-generate pipeline. Agentic RAG adds decision-making: a planner routes queries to different retrieval strategies (vector, keyword, SQL), a self-evaluator scores answer quality, and a retry loop can re-retrieve with improved vectors (e.g., HyDE) when confidence is low. This adaptive behavior makes agentic RAG more robust on diverse query types at the cost of added latency and complexity.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 32,
+    "question": "What is the role of IDF (Inverse Document Frequency) in text retrieval?",
+    "ground_truth": "IDF down-weights terms that appear in many documents (common words like 'the', 'is') and up-weights rare, discriminative terms. It is computed as log(N/df) where N is the total number of documents and df is the number of documents containing the term. Combined with TF, TF-IDF and BM25 produce relevance scores that favor specific, informative terms over generic ones.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 33,
+    "question": "What is the difference between semantic chunking and fixed-size chunking?",
+    "ground_truth": "Fixed-size chunking splits text by a fixed token count regardless of content boundaries, potentially cutting mid-sentence or mid-paragraph. Semantic chunking uses natural language cues such as sentence boundaries, paragraph breaks, or embedding-based similarity shifts to produce semantically cohesive chunks. Semantic chunks tend to embed more meaningfully and improve retrieval relevance, at the cost of variable chunk sizes that complicate batch processing.",
+    "category": "SEMANTIC"
+  },
+  {
+    "id": 34,
+    "question": "Who founded Pinecone and when was it established?",
+    "ground_truth": "Pinecone was founded by Edo Liberty in 2019. Liberty previously led Amazon AI Labs and Yahoo Research before starting Pinecone as a managed vector database company.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 35,
+    "question": "Which company built the Cohere Rerank API?",
+    "ground_truth": "Cohere, a Canadian AI company founded by Aidan Gomez, Nick Frosst, and Ivan Zhang in 2019, built the Rerank API. It provides a cross-encoder reranking model accessible via API for improving search result relevance.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 36,
+    "question": "Who created the BERT language model and when was it published?",
+    "ground_truth": "BERT was created by Jacob Devlin and colleagues at Google AI Language, published in October 2018 in the paper 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.'",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 37,
+    "question": "When was Elasticsearch first released and who created it?",
+    "ground_truth": "Elasticsearch was first released in February 2010 by Shay Banon, built on top of Apache Lucene. It is developed by Elastic N.V., the company Banon co-founded.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 38,
+    "question": "Who founded OpenAI and in what year?",
+    "ground_truth": "OpenAI was founded in December 2015 by Sam Altman, Greg Brockman, Ilya Sutskever, Elon Musk, Wojciech Zaremba, and John Schulman, among others, as a non-profit AI research organization.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 39,
+    "question": "When was PostgreSQL first released?",
+    "ground_truth": "PostgreSQL originated from the POSTGRES project at UC Berkeley created by Michael Stonebraker, starting in 1986. The first release with SQL support was in 1996.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 40,
+    "question": "Who introduced the transformer architecture and when was the paper published?",
+    "ground_truth": "The transformer was introduced by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, and colleagues at Google Brain in the paper 'Attention Is All You Need,' published in June 2017 at NeurIPS.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 41,
+    "question": "When was Hugging Face founded and what is it known for?",
+    "ground_truth": "Hugging Face was founded in 2016 by Clement Delangue, Julien Chaumond, and Thomas Wolf. It is known for the Transformers Python library and the Hub platform for sharing pre-trained machine learning models and datasets.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 42,
+    "question": "Who created the Word2Vec algorithm and when was it developed?",
+    "ground_truth": "Word2Vec was developed by Tomas Mikolov and colleagues at Google in 2013, introduced in the paper 'Efficient Estimation of Word Representations in Vector Space.'",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 43,
+    "question": "What company developed the FAISS library for vector similarity search?",
+    "ground_truth": "FAISS (Facebook AI Similarity Search) was developed by Meta AI Research (formerly Facebook AI Research), open-sourced in 2017. It is written in C++ with Python bindings and provides efficient ANN algorithm implementations.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 44,
+    "question": "When was LangChain first released and who created it?",
+    "ground_truth": "LangChain was created by Harrison Chase and first released in October 2022. It became one of the most popular open-source frameworks for building LLM-powered applications.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 45,
+    "question": "Who is the CEO of Anthropic and when was the company founded?",
+    "ground_truth": "Anthropic was founded in 2021 by Dario Amodei (CEO) and Daniela Amodei (President), along with several former OpenAI researchers. Dario previously served as VP of Research at OpenAI.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 46,
+    "question": "What is GPT-4 and when was it released by OpenAI?",
+    "ground_truth": "GPT-4 is a large multimodal language model by OpenAI that accepts text and image inputs. It was released on March 14, 2023, demonstrating significant improvements over GPT-3.5 on professional benchmarks.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 47,
+    "question": "When was Redis first released and who created it?",
+    "ground_truth": "Redis was created by Salvatore Sanfilippo (antirez) and first released in 2009 as an open-source in-memory data structure store used for caching, databases, and message brokering.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 48,
+    "question": "Who invented the PageRank algorithm and when was it developed?",
+    "ground_truth": "PageRank was invented by Larry Page and Sergey Brin at Stanford University in 1996 while developing what became Google. It ranks web pages by the quantity and quality of links pointing to them.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 49,
+    "question": "What is Apache Lucene and who created it?",
+    "ground_truth": "Apache Lucene is a high-performance full-featured text search engine library written in Java, created by Doug Cutting and first released in 1999. It is the core search library underlying Elasticsearch and Apache Solr.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 50,
+    "question": "When was MongoDB founded and who are its founders?",
+    "ground_truth": "MongoDB was founded in 2007 by Dwight Merriman, Eliot Horowitz, and Kevin Ryan. It was open-sourced in 2009 and has become the most popular NoSQL document database.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 51,
+    "question": "Who are the authors of the original Attention Is All You Need transformer paper?",
+    "ground_truth": "The paper was authored by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin — researchers primarily from Google Brain and Google Research.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 52,
+    "question": "What is ChromaDB and when was it first released?",
+    "ground_truth": "Chroma (ChromaDB) is an open-source embedding database for LLM applications released in early 2023 by Chroma Inc. It provides a simple API for storing and querying embeddings with metadata filtering.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 53,
+    "question": "When was Weaviate first released and who develops it?",
+    "ground_truth": "Weaviate is an open-source vector database developed by SeMI Technologies (later Weaviate B.V.), founded by Bob van Luijt and Micha Verhagen in the Netherlands. The first version was released in 2019.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 54,
+    "question": "Who created the GloVe word embeddings model and at which institution?",
+    "ground_truth": "GloVe (Global Vectors for Word Representation) was created by Jeffrey Pennington, Richard Socher, and Christopher Manning at Stanford University, published in 2014. Unlike Word2Vec, GloVe uses global word co-occurrence statistics.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 55,
+    "question": "What is Qdrant and which company builds it?",
+    "ground_truth": "Qdrant is an open-source vector similarity search engine written in Rust, developed by Qdrant Solutions GmbH, founded by Andrey Vasnetsov. It is known for its performance, payload filtering, and distributed deployment support.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 56,
+    "question": "When was Apache Kafka first released and who created it?",
+    "ground_truth": "Apache Kafka was created at LinkedIn by Jay Kreps, Neha Narkhede, and Jun Rao, and open-sourced in 2011. It was designed as a high-throughput distributed messaging system for log aggregation.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 57,
+    "question": "Who founded Databricks and when was the company established?",
+    "ground_truth": "Databricks was founded in 2013 by Ali Ghodsi, Matei Zaharia, Patrick Wendell, Reynold Xin, Andy Konwinski, Ion Stoica, and Scott Shenker — UC Berkeley AMPLab researchers who originally created Apache Spark.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 58,
+    "question": "What is the OpenAI text-embedding-ada-002 model and when was it released?",
+    "ground_truth": "text-embedding-ada-002 is OpenAI's embedding model that generates 1536-dimensional dense vectors for text, released in December 2022. It replaced older Ada, Babbage, Curie, and Davinci embedding models with a single, more capable and cheaper option.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 59,
+    "question": "When was Snowflake founded and who are its founders?",
+    "ground_truth": "Snowflake was founded in 2012 by Benoit Dageville, Thierry Cruanes, and Marcin Zukowski — three former Oracle engineers who pioneered the cloud-native data warehouse concept with a multi-cluster shared data architecture.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 60,
+    "question": "Who created the CLIP model and which organization published it?",
+    "ground_truth": "CLIP (Contrastive Language-Image Pre-Training) was created by Alec Radford, Jong Wook Kim, and colleagues at OpenAI, published in January 2021. It learns visual concepts from natural language supervision.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 61,
+    "question": "What is Milvus and who originally developed it?",
+    "ground_truth": "Milvus is an open-source vector database originally developed by Zilliz and released in 2019. It supports multiple ANN index types including HNSW and IVF_FLAT and is now a CNCF incubating project.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 62,
+    "question": "When was Confluent founded and what is its core product?",
+    "ground_truth": "Confluent was founded in 2014 by Jay Kreps, Neha Narkhede, and Jun Rao — the creators of Apache Kafka. Its core product is the Confluent Platform, a commercially supported Kafka distribution for enterprise event streaming.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 63,
+    "question": "Who invented the MapReduce programming model and where was it developed?",
+    "ground_truth": "MapReduce was invented by Jeffrey Dean and Sanjay Ghemawat at Google, described in their 2004 OSDI paper 'MapReduce: Simplified Data Processing on Large Clusters.' It abstracts distributed computation into map and reduce phases.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 64,
+    "question": "Which organization developed Sentence-BERT and when was it published?",
+    "ground_truth": "Sentence-BERT was developed by Nils Reimers and Iryna Gurevych at the UKP Lab at TU Darmstadt, Germany, published in August 2019. It significantly improved the efficiency of semantic sentence similarity computation with BERT.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 65,
+    "question": "Who created the Llama family of language models and when was it first released?",
+    "ground_truth": "The Llama (Large Language Model Meta AI) family was created by Meta AI Research. The first Llama model was released in February 2023, followed by Llama 2 (July 2023) and Llama 3 (April 2024) as Meta's open-weights LLM series.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 66,
+    "question": "What is Zilliz and when was it founded?",
+    "ground_truth": "Zilliz is the company behind the Milvus open-source vector database, founded in 2017 by Charles Xie in Shanghai. Zilliz offers Zilliz Cloud, a managed cloud service built on Milvus, and has been central to the vector database ecosystem.",
+    "category": "KEYWORD"
+  },
+  {
+    "id": 67,
+    "question": "How many tracks are in the database?",
+    "ground_truth": "There are 3,503 tracks in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Track\""
+  },
+  {
+    "id": 68,
+    "question": "Which genre has the most tracks in the database?",
+    "ground_truth": "Rock has the most tracks with 1,297 tracks.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Genre\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" GROUP BY \"Genre\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 69,
+    "question": "How many artists are in the database?",
+    "ground_truth": "There are 275 artists in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Artist\""
+  },
+  {
+    "id": 70,
+    "question": "How many albums are in the database?",
+    "ground_truth": "There are 347 albums in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Album\""
+  },
+  {
+    "id": 71,
+    "question": "What is the total revenue from all invoices?",
+    "ground_truth": "The total revenue from all invoices is $2,328.60.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(SUM(\"Total\")::numeric, 2) FROM \"Invoice\""
+  },
+  {
+    "id": 72,
+    "question": "What is the average invoice total?",
+    "ground_truth": "The average invoice total is $5.65.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(\"Total\")::numeric, 2) FROM \"Invoice\""
+  },
+  {
+    "id": 73,
+    "question": "Who are the top 5 customers by total spending?",
+    "ground_truth": "The top 5 customers by total spending are: Helena Holy ($49.62), Richard Cunningham ($47.62), Luis Rojas ($46.62), Hugh O'Reilly ($45.62), and Ladislav Kovacs ($45.62).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Customer\".\"FirstName\" || ' ' || \"Customer\".\"LastName\" AS name, ROUND(SUM(\"Invoice\".\"Total\")::numeric, 2) AS spent FROM \"Invoice\" JOIN \"Customer\" ON \"Invoice\".\"CustomerId\" = \"Customer\".\"CustomerId\" GROUP BY name ORDER BY spent DESC LIMIT 5"
+  },
+  {
+    "id": 74,
+    "question": "Which artist has the most albums in the database?",
+    "ground_truth": "Iron Maiden has the most albums with 21 albums.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Album\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 75,
+    "question": "What is the longest track in the database?",
+    "ground_truth": "The longest track is 'Occupation / Precipice' at 5,286,953 milliseconds (approximately 88 minutes).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Name\", \"Milliseconds\" FROM \"Track\" ORDER BY \"Milliseconds\" DESC LIMIT 1"
+  },
+  {
+    "id": 76,
+    "question": "Which album has the most tracks?",
+    "ground_truth": "The album 'Greatest Hits' has the most tracks with 57 tracks.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Album\".\"Title\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" GROUP BY \"Album\".\"Title\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 77,
+    "question": "How many distinct composers are represented in the database?",
+    "ground_truth": "There are 853 distinct composers in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(DISTINCT \"Composer\") FROM \"Track\" WHERE \"Composer\" IS NOT NULL"
+  },
+  {
+    "id": 78,
+    "question": "What is the average track length in milliseconds?",
+    "ground_truth": "The average track length is 393,599 milliseconds (approximately 6.6 minutes).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(\"Milliseconds\")::numeric, 0) FROM \"Track\""
+  },
+  {
+    "id": 79,
+    "question": "How many tracks are in the Rock genre?",
+    "ground_truth": "There are 1,297 tracks in the Rock genre.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Rock'"
+  },
+  {
+    "id": 80,
+    "question": "Which country generates the most revenue in the database?",
+    "ground_truth": "The USA generates the most revenue with $523.06.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"BillingCountry\", ROUND(SUM(\"Total\")::numeric, 2) AS rev FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY rev DESC LIMIT 1"
+  },
+  {
+    "id": 81,
+    "question": "How many employees are in the database?",
+    "ground_truth": "There are 8 employees in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Employee\""
+  },
+  {
+    "id": 82,
+    "question": "What are the top 5 countries by total invoice revenue?",
+    "ground_truth": "The top 5 countries by revenue are: USA ($523.06), Canada ($303.96), France ($195.10), Brazil ($190.10), and Germany ($156.48).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"BillingCountry\", ROUND(SUM(\"Total\")::numeric, 2) AS rev FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY rev DESC LIMIT 5"
+  },
+  {
+    "id": 83,
+    "question": "Which playlist has the most tracks?",
+    "ground_truth": "The 'Music' playlist has the most tracks with 6,580 tracks.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Playlist\".\"Name\", COUNT(*) AS cnt FROM \"PlaylistTrack\" JOIN \"Playlist\" ON \"PlaylistTrack\".\"PlaylistId\" = \"Playlist\".\"PlaylistId\" GROUP BY \"Playlist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 84,
+    "question": "How many invoices were issued in 2021?",
+    "ground_truth": "83 invoices were issued in 2021.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Invoice\" WHERE EXTRACT(YEAR FROM \"InvoiceDate\") = 2021"
+  },
+  {
+    "id": 85,
+    "question": "What is the most common media type for tracks in the database?",
+    "ground_truth": "MPEG audio file is the most common media type with 3,034 tracks.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"MediaType\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"MediaType\" ON \"Track\".\"MediaTypeId\" = \"MediaType\".\"MediaTypeId\" GROUP BY \"MediaType\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 86,
+    "question": "How many tracks are in the Jazz genre?",
+    "ground_truth": "There are 130 tracks in the Jazz genre.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Jazz'"
+  },
+  {
+    "id": 87,
+    "question": "Which artist has the most tracks in total across all albums?",
+    "ground_truth": "Iron Maiden has the most tracks with 213 tracks across all albums.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 88,
+    "question": "What is the average number of line items per invoice?",
+    "ground_truth": "The average number of items per invoice is 5.44.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(cnt)::numeric, 2) FROM (SELECT \"InvoiceId\", COUNT(*) AS cnt FROM \"InvoiceLine\" GROUP BY \"InvoiceId\") sub"
+  },
+  {
+    "id": 89,
+    "question": "How many customers are in the database?",
+    "ground_truth": "There are 59 customers in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Customer\""
+  },
+  {
+    "id": 90,
+    "question": "What is the maximum single invoice total?",
+    "ground_truth": "The maximum invoice total is $25.86.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(MAX(\"Total\")::numeric, 2) FROM \"Invoice\""
+  },
+  {
+    "id": 91,
+    "question": "How many tracks are in the Latin genre?",
+    "ground_truth": "There are 579 tracks in the Latin genre.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Latin'"
+  },
+  {
+    "id": 92,
+    "question": "What is the minimum invoice total in the database?",
+    "ground_truth": "The minimum invoice total is $0.99.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(MIN(\"Total\")::numeric, 2) FROM \"Invoice\""
+  },
+  {
+    "id": 93,
+    "question": "How many invoices were billed to customers in the USA?",
+    "ground_truth": "There are 91 invoices billed to customers in the USA.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Invoice\" WHERE \"BillingCountry\" = 'USA'"
+  },
+  {
+    "id": 94,
+    "question": "Which genre generates the most revenue from track sales?",
+    "ground_truth": "Rock generates the most revenue with $826.65 from track sales.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Genre\".\"Name\", ROUND(SUM(\"InvoiceLine\".\"UnitPrice\" * \"InvoiceLine\".\"Quantity\")::numeric, 2) AS rev FROM \"InvoiceLine\" JOIN \"Track\" ON \"InvoiceLine\".\"TrackId\" = \"Track\".\"TrackId\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" GROUP BY \"Genre\".\"Name\" ORDER BY rev DESC LIMIT 1"
+  },
+  {
+    "id": 95,
+    "question": "How many playlists are in the database?",
+    "ground_truth": "There are 18 playlists in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Playlist\""
+  },
+  {
+    "id": 96,
+    "question": "What are the top 5 artists by total number of tracks?",
+    "ground_truth": "The top 5 artists by track count are: Iron Maiden (213), U2 (135), Led Zeppelin (114), Metallica (112), and Deep Purple (92).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 5"
+  },
+  {
+    "id": 97,
+    "question": "How many genres are in the database?",
+    "ground_truth": "There are 25 genres in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"Genre\""
+  },
+  {
+    "id": 98,
+    "question": "What is the total revenue from invoices billed to the USA?",
+    "ground_truth": "The total revenue from US invoices is $523.06.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(SUM(\"Total\")::numeric, 2) FROM \"Invoice\" WHERE \"BillingCountry\" = 'USA'"
+  },
+  {
+    "id": 99,
+    "question": "How many different countries are customers from?",
+    "ground_truth": "Customers come from 24 different countries.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(DISTINCT \"Country\") FROM \"Customer\""
+  },
+  {
+    "id": 100,
+    "question": "What is the average invoice total for the top 5 countries by average spend?",
+    "ground_truth": "The top 5 countries by average invoice total are: Chile ($6.66), Ireland ($6.52), Hungary ($6.52), Czech Republic ($6.45), and Austria ($6.09).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"BillingCountry\", ROUND(AVG(\"Total\")::numeric, 2) AS avg_total FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY avg_total DESC LIMIT 5"
+  }
+]
