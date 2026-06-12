@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0F0F13;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+* { box-sizing: border-box; }
+
+textarea:focus { outline: none; }
