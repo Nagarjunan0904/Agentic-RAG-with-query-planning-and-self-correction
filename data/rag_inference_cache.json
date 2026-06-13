@@ -1,0 +1,386 @@
+{
+  "question_ids": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "rows": [
+    {
+      "id": 67,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the database?",
+      "answer": "There are 3,503 tracks in the database.",
+      "contexts": [
+        "SQL result: (3503,)"
+      ],
+      "ground_truth": "There are 3,503 tracks in the database."
+    },
+    {
+      "id": 68,
+      "category": "STRUCTURED",
+      "question": "Which genre has the most tracks in the database?",
+      "answer": "Based on the SQL result, Rock has the most tracks in the database with 1,297 tracks.",
+      "contexts": [
+        "SQL result: ('Rock', 1297)"
+      ],
+      "ground_truth": "Rock has the most tracks with 1,297 tracks."
+    },
+    {
+      "id": 69,
+      "category": "STRUCTURED",
+      "question": "How many artists are in the database?",
+      "answer": "There are 275 artists in the database.",
+      "contexts": [
+        "SQL result: (275,)"
+      ],
+      "ground_truth": "There are 275 artists in the database."
+    },
+    {
+      "id": 70,
+      "category": "STRUCTURED",
+      "question": "How many albums are in the database?",
+      "answer": "There are 347 albums in the database.",
+      "contexts": [
+        "SQL result: (347,)"
+      ],
+      "ground_truth": "There are 347 albums in the database."
+    },
+    {
+      "id": 71,
+      "category": "STRUCTURED",
+      "question": "What is the total revenue from all invoices?",
+      "answer": "The total revenue from all invoices is $2,328.60.",
+      "contexts": [
+        "SQL result: (Decimal('2328.60'),)"
+      ],
+      "ground_truth": "The total revenue from all invoices is $2,328.60."
+    },
+    {
+      "id": 72,
+      "category": "STRUCTURED",
+      "question": "What is the average invoice total?",
+      "answer": "The average invoice total is $5.65 (or more precisely, $5.6519417475728155).",
+      "contexts": [
+        "SQL result: (Decimal('5.6519417475728155'),)"
+      ],
+      "ground_truth": "The average invoice total is $5.65."
+    },
+    {
+      "id": 73,
+      "category": "STRUCTURED",
+      "question": "Who are the top 5 customers by total spending?",
+      "answer": "Based on the context provided, I can only identify 3 customers by total spending:\n\n1. Richard Cunningham - $47.62\n2. Luis Rojas - $46.62\n3. Helena Hol\u00fd - $49.62\n\nThe context doesn't contain information about 5 customers, only 3.",
+      "contexts": [
+        "SQL result: (57, 'Luis', 'Rojas', Decimal('46.62'))",
+        "SQL result: (26, 'Richard', 'Cunningham', Decimal('47.62'))",
+        "SQL result: (6, 'Helena', 'Hol\u00fd', Decimal('49.62'))"
+      ],
+      "ground_truth": "The top 5 customers by total spending are: Helena Holy ($49.62), Richard Cunningham ($47.62), Luis Rojas ($46.62), Hugh O'Reilly ($45.62), and Ladislav Kovacs ($45.62)."
+    },
+    {
+      "id": 74,
+      "category": "STRUCTURED",
+      "question": "Which artist has the most albums in the database?",
+      "answer": "Based on the context provided, Iron Maiden has the most albums in the database with 21 albums.",
+      "contexts": [
+        "SQL result: ('Iron Maiden', 21)"
+      ],
+      "ground_truth": "Iron Maiden has the most albums with 21 albums."
+    },
+    {
+      "id": 75,
+      "category": "STRUCTURED",
+      "question": "What is the longest track in the database?",
+      "answer": "Based on the context provided, \"Occupation / Precipice\" appears to be the longest track in the database with a length of 5286953 (likely milliseconds, which equals approximately 88 minutes).",
+      "contexts": [
+        "SQL result: (2820, 'Occupation / Precipice', 227, 3, 19, None, 5286953, 1054423946, Decimal('1.99'))"
+      ],
+      "ground_truth": "The longest track is 'Occupation / Precipice' at 5,286,953 milliseconds (approximately 88 minutes)."
+    },
+    {
+      "id": 76,
+      "category": "STRUCTURED",
+      "question": "Which album has the most tracks?",
+      "answer": "Based on the context provided, \"Greatest Hits\" has the most tracks with 57 tracks.",
+      "contexts": [
+        "SQL result: ('Greatest Hits', 57)"
+      ],
+      "ground_truth": "The album 'Greatest Hits' has the most tracks with 57 tracks."
+    },
+    {
+      "id": 77,
+      "category": "STRUCTURED",
+      "question": "How many distinct composers are represented in the database?",
+      "answer": "Based on the SQL result provided, there are **853 distinct composers** represented in the database.",
+      "contexts": [
+        "SQL result: (853,)"
+      ],
+      "ground_truth": "There are 853 distinct composers in the database."
+    },
+    {
+      "id": 78,
+      "category": "STRUCTURED",
+      "question": "What is the average track length in milliseconds?",
+      "answer": "The average track length is 393,599.21 milliseconds (approximately 393.6 seconds or about 6.6 minutes).",
+      "contexts": [
+        "SQL result: (Decimal('393599.212103910933'),)"
+      ],
+      "ground_truth": "The average track length is 393,599 milliseconds (approximately 6.6 minutes)."
+    },
+    {
+      "id": 79,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Rock genre?",
+      "answer": "Based on the context provided, there are 1,297 tracks in the Rock genre.",
+      "contexts": [
+        "SQL result: (1297,)"
+      ],
+      "ground_truth": "There are 1,297 tracks in the Rock genre."
+    },
+    {
+      "id": 80,
+      "category": "STRUCTURED",
+      "question": "Which country generates the most revenue in the database?",
+      "answer": "Based on the context, USA generates the most revenue in the database with $523.06.",
+      "contexts": [
+        "SQL result: ('USA', Decimal('523.06'))"
+      ],
+      "ground_truth": "The USA generates the most revenue with $523.06."
+    },
+    {
+      "id": 81,
+      "category": "STRUCTURED",
+      "question": "How many employees are in the database?",
+      "answer": "There are 8 employees in the database.",
+      "contexts": [
+        "SQL result: (8,)"
+      ],
+      "ground_truth": "There are 8 employees in the database."
+    },
+    {
+      "id": 82,
+      "category": "STRUCTURED",
+      "question": "What are the top 5 countries by total invoice revenue?",
+      "answer": "Based on the context provided, I can only see data for 3 countries:\n\n1. Canada: $303.96\n2. France: $195.10\n3. Germany: $156.48\n\nThe context doesn't contain information about 5 countries, so I cannot provide the complete top 5 countries by total invoice revenue.",
+      "contexts": [
+        "SQL result: ('France', Decimal('195.10'))",
+        "SQL result: ('Germany', Decimal('156.48'))",
+        "SQL result: ('Canada', Decimal('303.96'))"
+      ],
+      "ground_truth": "The top 5 countries by revenue are: USA ($523.06), Canada ($303.96), France ($195.10), Brazil ($190.10), and Germany ($156.48)."
+    },
+    {
+      "id": 83,
+      "category": "STRUCTURED",
+      "question": "Which playlist has the most tracks?",
+      "answer": "The playlist \"Music\" has the most tracks with 3,290 tracks.",
+      "contexts": [
+        "SQL result: ('Music', 3290)"
+      ],
+      "ground_truth": "The 'Music' playlist has the most tracks with 6,580 tracks."
+    },
+    {
+      "id": 84,
+      "category": "STRUCTURED",
+      "question": "How many invoices were issued in 2021?",
+      "answer": "83 invoices were issued in 2021.",
+      "contexts": [
+        "SQL result: (83,)"
+      ],
+      "ground_truth": "83 invoices were issued in 2021."
+    },
+    {
+      "id": 85,
+      "category": "STRUCTURED",
+      "question": "What is the most common media type for tracks in the database?",
+      "answer": "Based on the context provided, the most common media type for tracks in the database is **MPEG audio file** with 3,034 occurrences.",
+      "contexts": [
+        "SQL result: ('MPEG audio file', 3034)"
+      ],
+      "ground_truth": "MPEG audio file is the most common media type with 3,034 tracks."
+    },
+    {
+      "id": 86,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Jazz genre?",
+      "answer": "There are 130 tracks in the Jazz genre.",
+      "contexts": [
+        "SQL result: (130,)"
+      ],
+      "ground_truth": "There are 130 tracks in the Jazz genre."
+    },
+    {
+      "id": 87,
+      "category": "STRUCTURED",
+      "question": "Which artist has the most tracks in total across all albums?",
+      "answer": "Based on the context provided, Iron Maiden has the most tracks in total across all albums with 213 tracks.",
+      "contexts": [
+        "SQL result: ('Iron Maiden', 213)"
+      ],
+      "ground_truth": "Iron Maiden has the most tracks with 213 tracks across all albums."
+    },
+    {
+      "id": 88,
+      "category": "STRUCTURED",
+      "question": "What is the average number of line items per invoice?",
+      "answer": "The average number of line items per invoice is approximately 5.44.",
+      "contexts": [
+        "SQL result: (Decimal('5.4368932038834951'),)"
+      ],
+      "ground_truth": "The average number of items per invoice is 5.44."
+    },
+    {
+      "id": 89,
+      "category": "STRUCTURED",
+      "question": "How many customers are in the database?",
+      "answer": "There are 59 customers in the database.",
+      "contexts": [
+        "SQL result: (59,)"
+      ],
+      "ground_truth": "There are 59 customers in the database."
+    },
+    {
+      "id": 90,
+      "category": "STRUCTURED",
+      "question": "What is the maximum single invoice total?",
+      "answer": "The maximum single invoice total is 25.86.",
+      "contexts": [
+        "SQL result: (Decimal('25.86'),)"
+      ],
+      "ground_truth": "The maximum invoice total is $25.86."
+    },
+    {
+      "id": 91,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Latin genre?",
+      "answer": "There are 579 tracks in the Latin genre.",
+      "contexts": [
+        "SQL result: (579,)"
+      ],
+      "ground_truth": "There are 579 tracks in the Latin genre."
+    },
+    {
+      "id": 92,
+      "category": "STRUCTURED",
+      "question": "What is the minimum invoice total in the database?",
+      "answer": "The minimum invoice total in the database is 0.99.",
+      "contexts": [
+        "SQL result: (Decimal('0.99'),)"
+      ],
+      "ground_truth": "The minimum invoice total is $0.99."
+    },
+    {
+      "id": 93,
+      "category": "STRUCTURED",
+      "question": "How many invoices were billed to customers in the USA?",
+      "answer": "Based on the context provided, 91 invoices were billed to customers in the USA.",
+      "contexts": [
+        "SQL result: (91,)"
+      ],
+      "ground_truth": "There are 91 invoices billed to customers in the USA."
+    },
+    {
+      "id": 94,
+      "category": "STRUCTURED",
+      "question": "Which genre generates the most revenue from track sales?",
+      "answer": "Based on the SQL result, Rock generates the most revenue from track sales with $826.65.",
+      "contexts": [
+        "SQL result: ('Rock', Decimal('826.65'))"
+      ],
+      "ground_truth": "Rock generates the most revenue with $826.65 from track sales."
+    },
+    {
+      "id": 95,
+      "category": "STRUCTURED",
+      "question": "How many playlists are in the database?",
+      "answer": "Based on the SQL result, there are **18 playlists** in the database.",
+      "contexts": [
+        "SQL result: (18,)"
+      ],
+      "ground_truth": "There are 18 playlists in the database."
+    },
+    {
+      "id": 96,
+      "category": "STRUCTURED",
+      "question": "What are the top 5 artists by total number of tracks?",
+      "answer": "Based on the context provided, I can only see data for 3 artists:\n\n1. Iron Maiden - 213 tracks\n2. Led Zeppelin - 114 tracks\n3. Metallica - 112 tracks\n\nThe context doesn't contain information about the top 5 artists, only these 3.",
+      "contexts": [
+        "SQL result: ('Led Zeppelin', 114)",
+        "SQL result: ('Iron Maiden', 213)",
+        "SQL result: ('Metallica', 112)"
+      ],
+      "ground_truth": "The top 5 artists by track count are: Iron Maiden (213), U2 (135), Led Zeppelin (114), Metallica (112), and Deep Purple (92)."
+    },
+    {
+      "id": 97,
+      "category": "STRUCTURED",
+      "question": "How many genres are in the database?",
+      "answer": "There are 25 genres in the database.",
+      "contexts": [
+        "SQL result: (25,)"
+      ],
+      "ground_truth": "There are 25 genres in the database."
+    },
+    {
+      "id": 98,
+      "category": "STRUCTURED",
+      "question": "What is the total revenue from invoices billed to the USA?",
+      "answer": "The total revenue from invoices billed to the USA is $523.06.",
+      "contexts": [
+        "SQL result: (Decimal('523.06'),)"
+      ],
+      "ground_truth": "The total revenue from US invoices is $523.06."
+    },
+    {
+      "id": 99,
+      "category": "STRUCTURED",
+      "question": "How many different countries are customers from?",
+      "answer": "Based on the SQL result, customers are from **24 different countries**.",
+      "contexts": [
+        "SQL result: (24,)"
+      ],
+      "ground_truth": "Customers come from 24 different countries."
+    },
+    {
+      "id": 100,
+      "category": "STRUCTURED",
+      "question": "What is the average invoice total for the top 5 countries by average spend?",
+      "answer": "The average invoice total for the top 5 countries by average spend is **6.45** (rounded to 2 decimal places).",
+      "contexts": [
+        "SQL result: (Decimal('6.4457142857142857'),)"
+      ],
+      "ground_truth": "The top 5 countries by average invoice total are: Chile ($6.66), Ireland ($6.52), Hungary ($6.52), Czech Republic ($6.45), and Austria ($6.09)."
+    }
+  ]
+}

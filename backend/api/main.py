@@ -142,7 +142,9 @@ async def feedback(req: FeedbackRequest):
 async def metrics():
     if not RAGAS_RESULTS_PATH.exists():
         return {}
-    return json.loads(RAGAS_RESULTS_PATH.read_text())
+    data = json.loads(RAGAS_RESULTS_PATH.read_text())
+    # Return the flat per_metric dict so the frontend can read metrics['faithfulness'] etc.
+    return data.get("per_metric", data)
 
 
 @app.get("/health")

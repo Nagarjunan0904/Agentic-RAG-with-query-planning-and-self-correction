@@ -1,0 +1,392 @@
+{
+  "per_metric": {
+    "faithfulness": 0.2353,
+    "answer_relevancy": 0.9128,
+    "context_recall": 0.8912,
+    "context_precision": 0.8529
+  },
+  "per_question": [
+    {
+      "id": 67,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 68,
+      "category": "STRUCTURED",
+      "question": "Which genre has the most tracks in the database?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.982,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 69,
+      "category": "STRUCTURED",
+      "question": "How many artists are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 70,
+      "category": "STRUCTURED",
+      "question": "How many albums are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 71,
+      "category": "STRUCTURED",
+      "question": "What is the total revenue from all invoices?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 72,
+      "category": "STRUCTURED",
+      "question": "What is the average invoice total?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 73,
+      "category": "STRUCTURED",
+      "question": "Who are the top 5 customers by total spending?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6923,
+        "context_recall": 0.6,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 74,
+      "category": "STRUCTURED",
+      "question": "Which artist has the most albums in the database?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.8996,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 75,
+      "category": "STRUCTURED",
+      "question": "What is the longest track in the database?",
+      "scores": {
+        "faithfulness": 0.3333,
+        "answer_relevancy": 0.9837,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 76,
+      "category": "STRUCTURED",
+      "question": "Which album has the most tracks?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 77,
+      "category": "STRUCTURED",
+      "question": "How many distinct composers are represented in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 78,
+      "category": "STRUCTURED",
+      "question": "What is the average track length in milliseconds?",
+      "scores": {
+        "faithfulness": 0.6667,
+        "answer_relevancy": 0.8723,
+        "context_recall": 0.5,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 79,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Rock genre?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9489,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 80,
+      "category": "STRUCTURED",
+      "question": "Which country generates the most revenue in the database?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9927,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 81,
+      "category": "STRUCTURED",
+      "question": "How many employees are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 82,
+      "category": "STRUCTURED",
+      "question": "What are the top 5 countries by total invoice revenue?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.6,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 83,
+      "category": "STRUCTURED",
+      "question": "Which playlist has the most tracks?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9715,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 84,
+      "category": "STRUCTURED",
+      "question": "How many invoices were issued in 2021?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 85,
+      "category": "STRUCTURED",
+      "question": "What is the most common media type for tracks in the database?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 86,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Jazz genre?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9952,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 87,
+      "category": "STRUCTURED",
+      "question": "Which artist has the most tracks in total across all albums?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.891,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 88,
+      "category": "STRUCTURED",
+      "question": "What is the average number of line items per invoice?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 89,
+      "category": "STRUCTURED",
+      "question": "How many customers are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 90,
+      "category": "STRUCTURED",
+      "question": "What is the maximum single invoice total?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 91,
+      "category": "STRUCTURED",
+      "question": "How many tracks are in the Latin genre?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 92,
+      "category": "STRUCTURED",
+      "question": "What is the minimum invoice total in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 93,
+      "category": "STRUCTURED",
+      "question": "How many invoices were billed to customers in the USA?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 94,
+      "category": "STRUCTURED",
+      "question": "Which genre generates the most revenue from track sales?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9737,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 95,
+      "category": "STRUCTURED",
+      "question": "How many playlists are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 96,
+      "category": "STRUCTURED",
+      "question": "What are the top 5 artists by total number of tracks?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.6,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 97,
+      "category": "STRUCTURED",
+      "question": "How many genres are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 98,
+      "category": "STRUCTURED",
+      "question": "What is the total revenue from invoices billed to the USA?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 99,
+      "category": "STRUCTURED",
+      "question": "How many different countries are customers from?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8336,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 100,
+      "category": "STRUCTURED",
+      "question": "What is the average invoice total for the top 5 countries by average spend?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    }
+  ],
+  "category_breakdown": {
+    "STRUCTURED": {
+      "faithfulness": 0.2353,
+      "answer_relevancy": 0.9128,
+      "context_recall": 0.8912,
+      "context_precision": 0.8529
+    }
+  }
+}
