@@ -1,11 +1,737 @@
 {
   "per_metric": {
-    "faithfulness": 0.2353,
-    "answer_relevancy": 0.9128,
-    "context_recall": 0.8912,
-    "context_precision": 0.8529
+    "faithfulness": 0.7091,
+    "answer_relevancy": 0.574,
+    "context_recall": 0.4114,
+    "context_precision": 0.4649
   },
   "per_question": [
+    {
+      "id": 1,
+      "category": "SEMANTIC",
+      "question": "How does the immune system fight infections?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.4286,
+        "context_precision": 0.5
+      }
+    },
+    {
+      "id": 2,
+      "category": "SEMANTIC",
+      "question": "What causes earthquakes?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.9997,
+        "context_recall": 0.5,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 3,
+      "category": "SEMANTIC",
+      "question": "How do airplanes generate lift?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 0.5,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 4,
+      "category": "SEMANTIC",
+      "question": "What is photosynthesis and how does it work?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 5,
+      "category": "SEMANTIC",
+      "question": "How does a combustion engine work?",
+      "scores": {
+        "faithfulness": 0.9333,
+        "answer_relevancy": 0.9051,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 6,
+      "category": "SEMANTIC",
+      "question": "What is the water cycle and how does it work?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 7,
+      "category": "SEMANTIC",
+      "question": "How do vaccines work?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9251,
+        "context_recall": 0.25,
+        "context_precision": 0.3333
+      }
+    },
+    {
+      "id": 8,
+      "category": "SEMANTIC",
+      "question": "What causes the seasons on Earth?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 0.75,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 9,
+      "category": "SEMANTIC",
+      "question": "How is steel made?",
+      "scores": {
+        "faithfulness": 0.8571,
+        "answer_relevancy": 0.814,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 10,
+      "category": "SEMANTIC",
+      "question": "What is the difference between bacteria and viruses?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8765,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 11,
+      "category": "SEMANTIC",
+      "question": "How does the human digestive system work?",
+      "scores": {
+        "faithfulness": 0.9375,
+        "answer_relevancy": 0.8817,
+        "context_recall": 0.2,
+        "context_precision": 0.3333
+      }
+    },
+    {
+      "id": 12,
+      "category": "SEMANTIC",
+      "question": "What causes lightning and thunder?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 13,
+      "category": "SEMANTIC",
+      "question": "How do solar panels generate electricity?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 14,
+      "category": "SEMANTIC",
+      "question": "What is DNA and how does it store genetic information?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.4,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 15,
+      "category": "SEMANTIC",
+      "question": "How do muscles contract and generate force?",
+      "scores": {
+        "faithfulness": null,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.25,
+        "context_precision": 0.3333
+      }
+    },
+    {
+      "id": 16,
+      "category": "SEMANTIC",
+      "question": "What causes a rainbow to form?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 17,
+      "category": "SEMANTIC",
+      "question": "How does the internet work?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 18,
+      "category": "SEMANTIC",
+      "question": "What is climate change and what causes it?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9789,
+        "context_recall": 0.25,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 19,
+      "category": "SEMANTIC",
+      "question": "How do plants absorb water and nutrients from the soil?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.8996,
+        "context_recall": 0.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 20,
+      "category": "SEMANTIC",
+      "question": "What is the difference between weather and climate?",
+      "scores": {
+        "faithfulness": 0.875,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.25,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 21,
+      "category": "SEMANTIC",
+      "question": "How does the heart pump blood through the body?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.5,
+        "context_precision": 0.8333
+      }
+    },
+    {
+      "id": 22,
+      "category": "SEMANTIC",
+      "question": "What causes ocean tides?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 23,
+      "category": "SEMANTIC",
+      "question": "How is glass made?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 24,
+      "category": "SEMANTIC",
+      "question": "What is the greenhouse effect?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9005,
+        "context_recall": 0.75,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 25,
+      "category": "SEMANTIC",
+      "question": "How do antibiotics work?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8995,
+        "context_recall": 0.4,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 26,
+      "category": "SEMANTIC",
+      "question": "What causes tooth decay?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.886,
+        "context_recall": 0.25,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 27,
+      "category": "SEMANTIC",
+      "question": "What is the difference between aerobic and anaerobic exercise?",
+      "scores": {
+        "faithfulness": 0.875,
+        "answer_relevancy": 0.7716,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 28,
+      "category": "SEMANTIC",
+      "question": "How do the kidneys filter blood?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 29,
+      "category": "SEMANTIC",
+      "question": "What causes allergies?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9597,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 30,
+      "category": "SEMANTIC",
+      "question": "How do magnets work?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 31,
+      "category": "SEMANTIC",
+      "question": "What is the difference between renewable and non-renewable energy?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 32,
+      "category": "SEMANTIC",
+      "question": "How does fermentation work in food production?",
+      "scores": {
+        "faithfulness": 0.7778,
+        "answer_relevancy": 0.9997,
+        "context_recall": 0.25,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 33,
+      "category": "SEMANTIC",
+      "question": "How does the human brain form and store memories?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.2,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 34,
+      "category": "KEYWORD",
+      "question": "Who wrote Romeo and Juliet?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.5
+      }
+    },
+    {
+      "id": 35,
+      "category": "KEYWORD",
+      "question": "When did World War II end?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 36,
+      "category": "KEYWORD",
+      "question": "What is the capital of France?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 37,
+      "category": "KEYWORD",
+      "question": "Who invented the telephone?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7783,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 38,
+      "category": "KEYWORD",
+      "question": "Which country has the largest population in the world?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_recall": 0.3333,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 39,
+      "category": "KEYWORD",
+      "question": "Who painted the Mona Lisa?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 40,
+      "category": "KEYWORD",
+      "question": "What is the tallest mountain in the world?",
+      "scores": {
+        "faithfulness": 0.8889,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 41,
+      "category": "KEYWORD",
+      "question": "Who was the first person to walk on the Moon?",
+      "scores": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 42,
+      "category": "KEYWORD",
+      "question": "What language is spoken in Brazil?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9014,
+        "context_recall": 0.75,
+        "context_precision": 0.5
+      }
+    },
+    {
+      "id": 43,
+      "category": "KEYWORD",
+      "question": "Who discovered penicillin?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9724,
+        "context_recall": 1.0,
+        "context_precision": 0.8333
+      }
+    },
+    {
+      "id": 44,
+      "category": "KEYWORD",
+      "question": "What is the capital of Australia?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.929,
+        "context_recall": 0.4,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 45,
+      "category": "KEYWORD",
+      "question": "When was the Eiffel Tower built?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 46,
+      "category": "KEYWORD",
+      "question": "Who wrote the play Hamlet?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 47,
+      "category": "KEYWORD",
+      "question": "What is the largest ocean on Earth?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 48,
+      "category": "KEYWORD",
+      "question": "Who was Napoleon Bonaparte?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7917,
+        "context_recall": 0.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 49,
+      "category": "KEYWORD",
+      "question": "When did the French Revolution begin?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": null,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 50,
+      "category": "KEYWORD",
+      "question": "What is the capital of Japan?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 51,
+      "category": "KEYWORD",
+      "question": "Who invented the light bulb?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 52,
+      "category": "KEYWORD",
+      "question": "Which is the longest river in the world?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 53,
+      "category": "KEYWORD",
+      "question": "When was the United Nations founded?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 54,
+      "category": "KEYWORD",
+      "question": "Who wrote A Tale of Two Cities?",
+      "scores": {
+        "faithfulness": 0.3333,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 55,
+      "category": "KEYWORD",
+      "question": "What is the largest desert in the world?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 56,
+      "category": "KEYWORD",
+      "question": "Who developed the theory of relativity?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 57,
+      "category": "KEYWORD",
+      "question": "What is the capital of Canada?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 58,
+      "category": "KEYWORD",
+      "question": "When did the American Civil War end?",
+      "scores": {
+        "faithfulness": null,
+        "answer_relevancy": 0.0,
+        "context_recall": 1.0,
+        "context_precision": null
+      }
+    },
+    {
+      "id": 59,
+      "category": "KEYWORD",
+      "question": "Who was the first President of the United States?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9996,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 60,
+      "category": "KEYWORD",
+      "question": "What is the smallest country in the world?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8781,
+        "context_recall": 0.1667,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 61,
+      "category": "KEYWORD",
+      "question": "Who invented the printing press?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 62,
+      "category": "KEYWORD",
+      "question": "What is the capital of Russia?",
+      "scores": {
+        "faithfulness": null,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 63,
+      "category": "KEYWORD",
+      "question": "When was the Berlin Wall torn down?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9084,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 64,
+      "category": "KEYWORD",
+      "question": "Who wrote Pride and Prejudice?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 65,
+      "category": "KEYWORD",
+      "question": "What is the highest waterfall in the world?",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": 66,
+      "category": "KEYWORD",
+      "question": "Which planet is closest to the Sun?",
+      "scores": {
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.0,
+        "context_recall": null,
+        "context_precision": null
+      }
+    },
     {
       "id": 67,
       "category": "STRUCTURED",
@@ -34,9 +760,9 @@
       "question": "How many artists are in the database?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 1.0
+        "answer_relevancy": null,
+        "context_recall": null,
+        "context_precision": null
       }
     },
     {
@@ -44,10 +770,10 @@
       "category": "STRUCTURED",
       "question": "How many albums are in the database?",
       "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
+        "faithfulness": null,
+        "answer_relevancy": null,
+        "context_recall": null,
+        "context_precision": null
       }
     },
     {
@@ -55,10 +781,10 @@
       "category": "STRUCTURED",
       "question": "What is the total revenue from all invoices?",
       "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
+        "faithfulness": null,
+        "answer_relevancy": null,
+        "context_recall": null,
+        "context_precision": null
       }
     },
     {
@@ -67,7 +793,7 @@
       "question": "What is the average invoice total?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
+        "answer_relevancy": null,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -78,7 +804,7 @@
       "question": "Who are the top 5 customers by total spending?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.6923,
+        "answer_relevancy": 0.0,
         "context_recall": 0.6,
         "context_precision": 0.0
       }
@@ -99,8 +825,8 @@
       "category": "STRUCTURED",
       "question": "What is the longest track in the database?",
       "scores": {
-        "faithfulness": 0.3333,
-        "answer_relevancy": 0.9837,
+        "faithfulness": 0.6667,
+        "answer_relevancy": 0.986,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -111,7 +837,7 @@
       "question": "Which album has the most tracks?",
       "scores": {
         "faithfulness": 0.5,
-        "answer_relevancy": 0.9999,
+        "answer_relevancy": 0.9693,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -144,7 +870,7 @@
       "question": "How many tracks are in the Rock genre?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 0.9489,
+        "answer_relevancy": 0.9999,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -166,7 +892,7 @@
       "question": "How many employees are in the database?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 1.0,
+        "answer_relevancy": 0.8839,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -210,7 +936,7 @@
       "question": "What is the most common media type for tracks in the database?",
       "scores": {
         "faithfulness": 0.5,
-        "answer_relevancy": 0.9999,
+        "answer_relevancy": 1.0,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -232,7 +958,7 @@
       "question": "Which artist has the most tracks in total across all albums?",
       "scores": {
         "faithfulness": 0.5,
-        "answer_relevancy": 0.891,
+        "answer_relevancy": 0.8912,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -382,11 +1108,23 @@
     }
   ],
   "category_breakdown": {
+    "SEMANTIC": {
+      "faithfulness": 0.9247,
+      "answer_relevancy": 0.6272,
+      "context_recall": 0.1857,
+      "context_precision": 0.3434
+    },
+    "KEYWORD": {
+      "faithfulness": 0.9496,
+      "answer_relevancy": 0.2472,
+      "context_recall": 0.1823,
+      "context_precision": 0.2204
+    },
     "STRUCTURED": {
-      "faithfulness": 0.2353,
-      "answer_relevancy": 0.9128,
-      "context_recall": 0.8912,
-      "context_precision": 0.8529
+      "faithfulness": 0.2604,
+      "answer_relevancy": 0.875,
+      "context_recall": 0.8806,
+      "context_precision": 0.8387
     }
   }
 }
