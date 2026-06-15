@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+.env
+frontend/
+data/chinook.sqlite
+data/rag_inference_cache.json
+data/ingest_checkpoint.txt
+.git
