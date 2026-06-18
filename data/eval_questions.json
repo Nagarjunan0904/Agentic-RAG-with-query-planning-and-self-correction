@@ -1,398 +1,398 @@
 [
   {
     "id": 1,
-    "question": "How does the immune system fight infections?",
-    "ground_truth": "The immune system fights infections through multiple layers. The skin and mucous membranes act as physical barriers. White blood cells detect and destroy pathogens: B cells produce antibodies that neutralize specific pathogens, T cells coordinate immune responses and kill infected cells, and neutrophils engulf and digest bacteria. Memory cells retain information about past infections for faster future responses.",
+    "question": "What are the symptoms of type 2 diabetes?",
+    "ground_truth": "Type 2 diabetes symptoms include increased thirst and urination, fatigue, blurred vision, slow-healing sores, and frequent infections. Some people experience tingling or numbness in the hands and feet. Many people have no symptoms initially, which is why regular screening is important.",
     "category": "SEMANTIC"
   },
   {
     "id": 2,
-    "question": "What causes earthquakes?",
-    "ground_truth": "Earthquakes are caused by the sudden release of energy stored in Earth's crust, primarily at tectonic plate boundaries. As plates move, stress builds up along fault lines until rocks fracture or slip, releasing seismic waves. The point of rupture underground is the hypocenter and the point directly above on the surface is the epicenter. Most earthquakes occur along active fault zones such as the Pacific Ring of Fire.",
+    "question": "How is asthma treated?",
+    "ground_truth": "Asthma is treated with two main types of medications: long-term control medications such as inhaled corticosteroids taken daily to prevent symptoms, and quick-relief rescue medications such as short-acting beta-agonists used during acute attacks. Avoiding known triggers, monitoring peak flow, and following an asthma action plan are also key components of management.",
     "category": "SEMANTIC"
   },
   {
     "id": 3,
-    "question": "How do airplanes generate lift?",
-    "ground_truth": "Airplanes generate lift primarily through wing shape and angle of attack. Air moving over the curved upper surface of the wing travels faster than air below, creating lower pressure above (Bernoulli principle). This pressure difference generates an upward force. Additionally, the wing's angle of attack deflects airflow downward, creating an equal and opposite upward reaction force per Newton's third law.",
+    "question": "What causes Alzheimer's disease?",
+    "ground_truth": "Alzheimer's disease is caused by abnormal protein deposits in the brain — amyloid plaques and tau tangles — that damage and kill neurons. The exact cause is not fully understood, but age is the greatest risk factor, along with genetic factors such as the APOE-e4 gene, family history, cardiovascular disease, and lifestyle factors.",
     "category": "SEMANTIC"
   },
   {
     "id": 4,
-    "question": "What is photosynthesis and how does it work?",
-    "ground_truth": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored as glucose. In chloroplasts, chlorophyll absorbs sunlight to split water molecules, releasing oxygen as a byproduct. Carbon dioxide from the air is used to build glucose through the Calvin cycle. The overall equation is: 6CO2 + 6H2O + light energy produces glucose and oxygen.",
+    "question": "What are the risk factors for coronary heart disease?",
+    "ground_truth": "Risk factors for coronary heart disease include high blood pressure, high LDL cholesterol, smoking, diabetes, obesity, physical inactivity, and an unhealthy diet. Non-modifiable risk factors include age, male sex, and family history. Modifiable factors such as smoking, diet, and exercise level can be addressed to lower overall risk.",
     "category": "SEMANTIC"
   },
   {
     "id": 5,
-    "question": "How does a combustion engine work?",
-    "ground_truth": "A four-stroke combustion engine converts fuel into mechanical motion through four steps: the intake stroke draws in an air-fuel mixture; the compression stroke compresses it; the power stroke ignites the mixture, forcing the piston down; and the exhaust stroke expels burned gases. The piston's linear motion is converted to rotary motion via the crankshaft, which ultimately drives the wheels.",
+    "question": "How is high blood pressure diagnosed?",
+    "ground_truth": "Hypertension is diagnosed by measuring blood pressure over multiple readings with a sphygmomanometer. A consistent reading of 130/80 mmHg or higher is stage 1 hypertension; 140/90 mmHg or higher is stage 2. Diagnosis is typically confirmed across multiple occasions or with 24-hour ambulatory monitoring because blood pressure varies throughout the day.",
     "category": "SEMANTIC"
   },
   {
     "id": 6,
-    "question": "What is the water cycle and how does it work?",
-    "ground_truth": "The water cycle describes the continuous movement of water through Earth's systems. Solar energy evaporates water from oceans and lakes into water vapor. Wind carries vapor inland where cooling causes condensation and cloud formation. Precipitation falls as rain or snow. Water flows back to oceans via rivers and groundwater. The cycle drives weather patterns and distributes fresh water around the globe.",
+    "question": "What are the early symptoms of HIV infection?",
+    "ground_truth": "Within 2 to 4 weeks of HIV infection, many people experience acute retroviral syndrome resembling flu, including fever, swollen lymph nodes, sore throat, rash, muscle aches, and fatigue. These symptoms typically last a few weeks and then resolve. After this stage, HIV may cause no symptoms for years while continuing to replicate and damage the immune system.",
     "category": "SEMANTIC"
   },
   {
     "id": 7,
-    "question": "How do vaccines work?",
-    "ground_truth": "Vaccines train the immune system to recognize and fight specific pathogens without causing disease. They introduce weakened or killed pathogens, pathogen fragments such as proteins, or genetic instructions like mRNA that cause cells to produce pathogen proteins. The immune system responds by producing antibodies and memory cells. If the real pathogen is encountered later, the immune response is faster and stronger.",
+    "question": "How does rheumatoid arthritis differ from osteoarthritis?",
+    "ground_truth": "Rheumatoid arthritis (RA) is an autoimmune disease in which the immune system attacks joint linings, causing inflammation and joint destruction, typically affecting small joints of the hands and feet symmetrically. Osteoarthritis (OA) is degenerative wear-and-tear of cartilage, typically affecting weight-bearing joints like knees and hips. RA can affect multiple organ systems and occurs at any age; OA is more common in older adults.",
     "category": "SEMANTIC"
   },
   {
     "id": 8,
-    "question": "What causes the seasons on Earth?",
-    "ground_truth": "Earth's seasons are caused by the planet's axial tilt of approximately 23.5 degrees relative to its orbital plane. When the Northern Hemisphere tilts toward the Sun it receives more direct sunlight and experiences summer while the Southern Hemisphere has winter. Six months later the reverse is true. Seasons are not caused by Earth's distance from the Sun, which changes only slightly throughout the year.",
+    "question": "What medications are used to treat depression?",
+    "ground_truth": "Depression is primarily treated with antidepressants, most commonly SSRIs such as fluoxetine, sertraline, and escitalopram, which are generally well tolerated. Other options include SNRIs, tricyclic antidepressants, and MAOIs. Antidepressants typically take 4 to 8 weeks for full effect and are often combined with psychotherapy for best outcomes.",
     "category": "SEMANTIC"
   },
   {
     "id": 9,
-    "question": "How is steel made?",
-    "ground_truth": "Steel is made by refining iron ore. Iron ore is smelted in a blast furnace with coke and limestone to produce pig iron containing about 4% carbon. This pig iron is then refined in a basic oxygen furnace where oxygen removes excess carbon, reducing it to 0.1 to 2 percent to produce steel. Alloying elements such as chromium, nickel, or manganese are added to achieve specific properties like hardness or rust resistance.",
+    "question": "What are the warning signs of a stroke?",
+    "ground_truth": "Stroke warning signs are captured by the acronym FAST: Face drooping, Arm weakness, Speech difficulty, and Time to call 911. Additional symptoms include sudden severe headache with no known cause, sudden vision problems in one or both eyes, and sudden dizziness or loss of balance. Immediate emergency treatment is critical as time lost means brain cells lost.",
     "category": "SEMANTIC"
   },
   {
     "id": 10,
-    "question": "What is the difference between bacteria and viruses?",
-    "ground_truth": "Bacteria are single-celled prokaryotic organisms that reproduce independently and can be killed by antibiotics. Viruses are much smaller non-living particles consisting of genetic material surrounded by a protein coat. Viruses cannot reproduce on their own and must hijack a host cell's machinery to replicate. Antibiotics are ineffective against viruses because viruses lack the cellular structures that antibiotics target.",
+    "question": "How is breast cancer detected?",
+    "ground_truth": "Breast cancer is detected through regular mammograms (X-ray screening), clinical breast exams by a healthcare provider, and breast self-exams. Mammography is the standard screening tool and can detect cancer before symptoms appear. For women at high risk, additional MRI screening may be recommended. Diagnosis is confirmed with biopsy after suspicious imaging findings.",
     "category": "SEMANTIC"
   },
   {
     "id": 11,
-    "question": "How does the human digestive system work?",
-    "ground_truth": "The digestive system breaks down food into nutrients the body can absorb. Food travels from the mouth where chewing and saliva begin digestion, through the esophagus to the stomach where acid digestion occurs, then to the small intestine where enzymes from the pancreas and bile from the liver complete digestion and nutrients are absorbed into the bloodstream. The large intestine absorbs water and compacts waste.",
+    "question": "What causes chronic kidney disease?",
+    "ground_truth": "The two most common causes of chronic kidney disease are diabetes (diabetic nephropathy) and high blood pressure (hypertensive nephropathy), together accounting for the majority of cases. Other causes include glomerulonephritis, polycystic kidney disease, lupus, and recurrent urinary tract infections. CKD progresses gradually and can advance to end-stage renal disease requiring dialysis or transplantation.",
     "category": "SEMANTIC"
   },
   {
     "id": 12,
-    "question": "What causes lightning and thunder?",
-    "ground_truth": "Lightning is caused by static electrical charges building up in storm clouds. Ice crystals collide inside clouds, causing charge separation with negative charges accumulating at the cloud bottom. When the voltage difference between cloud and ground becomes large enough, a discharge occurs as a lightning bolt. Thunder is the sonic boom created by the rapid heating and expansion of air to around 30,000 Kelvin along the lightning bolt's path.",
+    "question": "How does insulin work in diabetes management?",
+    "ground_truth": "Insulin is a hormone produced by the pancreas that allows cells to absorb glucose from the bloodstream for energy. In type 1 diabetes, the body produces no insulin, requiring insulin injections or an insulin pump. In type 2 diabetes, insulin resistance causes cells to not respond well to insulin. Different types of insulin — rapid-acting, long-acting, and premixed formulations — are used to control blood sugar throughout the day.",
     "category": "SEMANTIC"
   },
   {
     "id": 13,
-    "question": "How do solar panels generate electricity?",
-    "ground_truth": "Solar panels generate electricity through the photovoltaic effect. Panels contain silicon semiconductor cells where photons from sunlight knock electrons loose from silicon atoms. The cell's internal electric field, created by layers of positively and negatively doped silicon, pushes these free electrons in one direction, generating direct current (DC). An inverter converts DC to alternating current (AC) for household use.",
+    "question": "What are the treatments for Parkinson's disease?",
+    "ground_truth": "The primary treatment for Parkinson's disease is levodopa combined with carbidopa (Sinemet), which increases dopamine levels in the brain and is the most effective medication available. Other medications include dopamine agonists, MAO-B inhibitors, and COMT inhibitors. Deep brain stimulation (DBS) surgery can help patients with symptoms not well controlled by medication. Physical, speech, and occupational therapy also play important roles.",
     "category": "SEMANTIC"
   },
   {
     "id": 14,
-    "question": "What is DNA and how does it store genetic information?",
-    "ground_truth": "DNA (deoxyribonucleic acid) is the molecule that stores genetic instructions in all living organisms. It consists of two complementary strands wound in a double helix, made of four nucleotide bases: adenine, thymine, cytosine, and guanine. Sequences of these bases form genes that encode proteins. During cell division, DNA replicates so each daughter cell receives a complete copy. Mutations are changes in the DNA sequence that can alter protein function.",
+    "question": "What are the symptoms of multiple sclerosis?",
+    "ground_truth": "Multiple sclerosis symptoms vary widely depending on which nerves are affected. Common symptoms include fatigue, difficulty walking, numbness or tingling in the limbs, muscle weakness or spasms, vision problems including optic neuritis, bladder and bowel problems, and cognitive difficulties. Symptoms often occur in episodes called relapses followed by remissions.",
     "category": "SEMANTIC"
   },
   {
     "id": 15,
-    "question": "How do muscles contract and generate force?",
-    "ground_truth": "Muscles generate force through the interaction of two proteins: actin and myosin. When nerve signals trigger a muscle fiber, calcium ions are released, causing myosin heads to bind to actin filaments and pull them inward in a ratcheting motion known as the sliding filament mechanism. ATP provides energy for each myosin head to release and reattach. Coordinated shortening of many sarcomere units produces visible muscle contraction.",
+    "question": "How is epilepsy managed?",
+    "ground_truth": "Epilepsy is managed primarily with antiseizure medications (ASMs) such as levetiracetam, lamotrigine, valproate, and carbamazepine, which control seizures in about 70% of people. For those who don't respond to medication, options include surgery to remove the seizure focus, vagus nerve stimulation, a ketogenic diet, or responsive neurostimulation. Identifying and avoiding personal seizure triggers is also important.",
     "category": "SEMANTIC"
   },
   {
     "id": 16,
-    "question": "What causes a rainbow to form?",
-    "ground_truth": "A rainbow forms when sunlight enters water droplets in the atmosphere, is refracted (bent) as it enters, reflects off the inside of the droplet, and refracts again as it exits. Different wavelengths of light bend at slightly different angles, separating white light into its component colors from red on the outside to violet on the inside. Rainbows appear as arcs because they are formed by all droplets at the same angle from the observer's eye.",
+    "question": "What causes sickle cell disease?",
+    "ground_truth": "Sickle cell disease is caused by a mutation in the HBB gene encoding the beta-globin subunit of hemoglobin. The mutation causes hemoglobin to polymerize under low-oxygen conditions, deforming red blood cells into a rigid sickle shape. It is autosomal recessive — a person must inherit two copies of the mutated gene to have the disease. It is most common in people of African, Mediterranean, Middle Eastern, and Indian ancestry.",
     "category": "SEMANTIC"
   },
   {
     "id": 17,
-    "question": "How does the internet work?",
-    "ground_truth": "The internet is a global network of interconnected computers communicating via the TCP/IP protocol suite. Data is broken into packets that travel independently across routers, which read destination addresses and forward packets along optimal paths. The World Wide Web is a service running on the internet where servers host web pages retrieved via HTTP. DNS servers translate human-readable domain names into numerical IP addresses.",
+    "question": "How is cystic fibrosis treated?",
+    "ground_truth": "Cystic fibrosis treatment focuses on clearing thick mucus from airways and preventing lung infections through airway clearance techniques, inhaled medications including bronchodilators and dornase alfa, and antibiotics. CFTR modulator drugs such as elexacaftor/tezacaftor/ivacaftor (Trikafta) target the underlying protein defect and have dramatically improved outcomes for most patients with eligible mutations.",
     "category": "SEMANTIC"
   },
   {
     "id": 18,
-    "question": "What is climate change and what causes it?",
-    "ground_truth": "Climate change refers to long-term shifts in global temperatures and weather patterns. While some changes are natural, human activities since the Industrial Revolution have been the primary driver. Burning fossil fuels releases carbon dioxide and other greenhouse gases that trap solar heat in the atmosphere through the enhanced greenhouse effect. Consequences include rising sea levels, more extreme weather events, and shifts in ecosystems and agricultural growing zones.",
+    "question": "What are the symptoms of Crohn's disease?",
+    "ground_truth": "Crohn's disease symptoms include persistent diarrhea (sometimes with blood), abdominal cramping and pain, fatigue, weight loss, and reduced appetite. Complications can include fistulas, abscesses, and bowel obstructions. Crohn's also causes extraintestinal manifestations including joint pain, skin problems such as erythema nodosum, and eye inflammation.",
     "category": "SEMANTIC"
   },
   {
     "id": 19,
-    "question": "How do plants absorb water and nutrients from the soil?",
-    "ground_truth": "Plants absorb water and minerals primarily through root hairs, which provide large surface area for efficient uptake. Water moves into roots via osmosis from areas of high water concentration in the soil to lower concentration inside the root. Minerals are absorbed by active transport against concentration gradients. Water and dissolved minerals travel up the stem through xylem vessels driven by capillary action and the pulling force of evaporation from leaves known as transpiration.",
+    "question": "How is systemic lupus erythematosus diagnosed?",
+    "ground_truth": "Lupus diagnosis is based on clinical criteria and laboratory tests, as no single test confirms it. Diagnostic criteria include a butterfly rash, photosensitivity, oral ulcers, kidney involvement, blood disorders, and immunological abnormalities. Laboratory tests include antinuclear antibody (ANA), anti-dsDNA, and anti-Smith antibodies. Diagnosis is made when at least 4 of the 11 classification criteria are met.",
     "category": "SEMANTIC"
   },
   {
     "id": 20,
-    "question": "What is the difference between weather and climate?",
-    "ground_truth": "Weather refers to short-term atmospheric conditions at a specific location on any given day, including temperature, precipitation, wind, and humidity. Climate is the average pattern of weather in a region measured over a long period, typically 30 years or more. Climate is determined by factors such as latitude, ocean currents, elevation, and proximity to large bodies of water. The common saying is that climate is what you expect and weather is what you get.",
+    "question": "What are the main types of skin cancer?",
+    "ground_truth": "The three main types of skin cancer are basal cell carcinoma (the most common, arising from basal cells), squamous cell carcinoma (arising from squamous cells in the outer skin layers), and melanoma (the most dangerous type, arising from melanocytes). Melanoma is less common but most likely to spread. All three types are strongly associated with ultraviolet radiation exposure from sunlight or tanning beds.",
     "category": "SEMANTIC"
   },
   {
     "id": 21,
-    "question": "How does the heart pump blood through the body?",
-    "ground_truth": "The heart is a muscular pump with four chambers: two atria and two ventricles. Deoxygenated blood returns from the body to the right atrium, flows to the right ventricle, and is pumped to the lungs to pick up oxygen. Oxygenated blood returns to the left atrium, flows to the left ventricle, which pumps it through the aorta to the rest of the body. Electrical signals coordinate the heart's rhythmic contractions to maintain this dual circulation.",
+    "question": "How does high cholesterol affect cardiovascular health?",
+    "ground_truth": "High LDL cholesterol causes plaque to build up in artery walls through atherosclerosis, narrowing and hardening the arteries. This reduces blood flow to the heart and brain, increasing the risk of heart attack, stroke, and peripheral artery disease. HDL cholesterol helps remove LDL from arteries. Treatment includes dietary changes, exercise, and statin medications to lower LDL.",
     "category": "SEMANTIC"
   },
   {
     "id": 22,
-    "question": "What causes ocean tides?",
-    "ground_truth": "Ocean tides are caused primarily by the gravitational pull of the Moon on Earth's oceans. The Moon's gravity pulls ocean water toward it, creating a high-tide bulge on the side facing the Moon. An approximately equal high-tide bulge forms on the opposite side due to inertial effects. As Earth rotates, different locations pass through these bulges, experiencing roughly two high tides and two low tides per day. The Sun also influences tides but to a lesser degree.",
+    "question": "How is hypothyroidism treated?",
+    "ground_truth": "Hypothyroidism is treated with daily oral levothyroxine, a synthetic thyroid hormone that replaces what the thyroid gland cannot produce adequately. The dose is adjusted based on blood TSH (thyroid-stimulating hormone) levels. Treatment is typically lifelong, and most people achieve normal thyroid hormone levels and symptom relief with proper dosing. Regular TSH monitoring every 6 to 12 months is recommended once stable.",
     "category": "SEMANTIC"
   },
   {
     "id": 23,
-    "question": "How is glass made?",
-    "ground_truth": "Glass is made by melting silica (silicon dioxide found in sand) at very high temperatures around 1700 degrees Celsius with additives. Soda ash lowers the melting point and limestone improves durability. The molten mixture is cooled in a controlled way; if cooled quickly it remains an amorphous solid (glass) rather than forming crystals. Borosilicate glass adds boron oxide for heat resistance, while adding metal oxides produces colored glass.",
+    "question": "What triggers migraines?",
+    "ground_truth": "Common migraine triggers include hormonal changes in women (particularly estrogen fluctuations during menstruation, pregnancy, or menopause), stress, sleep disturbances, certain foods and drinks including alcohol, caffeine, aged cheeses, and processed foods, bright lights, strong smells, and weather changes. Identifying personal triggers through a headache diary can help reduce migraine frequency.",
     "category": "SEMANTIC"
   },
   {
     "id": 24,
-    "question": "What is the greenhouse effect?",
-    "ground_truth": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat from the Sun. Solar radiation passes through the atmosphere and warms Earth's surface. The surface re-emits heat as infrared radiation, which greenhouse gases including CO2, water vapor, methane, and nitrous oxide absorb and re-radiate in all directions, warming the lower atmosphere. Without this natural effect Earth's average temperature would be about minus 18 degrees Celsius rather than plus 15.",
+    "question": "How can osteoporosis be prevented?",
+    "ground_truth": "Osteoporosis can be prevented by building and maintaining strong bones through adequate calcium intake (1,000–1,200 mg per day), vitamin D, and weight-bearing and resistance exercise. Avoiding smoking and excessive alcohol also protects bone density. Bisphosphonates and other medications may be prescribed for those at high risk. Bone density is measured with DEXA scanning to monitor progress.",
     "category": "SEMANTIC"
   },
   {
     "id": 25,
-    "question": "How do antibiotics work?",
-    "ground_truth": "Antibiotics work by targeting structures or processes specific to bacteria that human cells lack. Different classes work differently: penicillins disrupt bacterial cell wall synthesis since human cells have no cell walls; fluoroquinolones inhibit bacterial DNA replication enzymes; tetracyclines block bacterial protein synthesis at the ribosome. Because viruses use host cell machinery rather than their own, antibiotics cannot target viruses without harming the host.",
+    "question": "What are the symptoms of COPD?",
+    "ground_truth": "COPD symptoms include chronic cough often producing mucus, shortness of breath especially during physical activity, wheezing, chest tightness, and frequent respiratory infections. As the disease progresses, breathing difficulties worsen and patients may experience weight loss and reduced exercise tolerance. Acute exacerbations — sudden worsening of symptoms — are common and may require hospitalization.",
     "category": "SEMANTIC"
   },
   {
     "id": 26,
-    "question": "What causes tooth decay?",
-    "ground_truth": "Tooth decay (dental caries) occurs when bacteria in the mouth, primarily Streptococcus mutans, metabolize sugars and produce acid as a byproduct. This acid demineralizes tooth enamel over time, creating cavities. Saliva helps neutralize acid and remineralize enamel, and fluoride strengthens enamel against acid attack. Poor oral hygiene allows bacterial plaque to accumulate on tooth surfaces, accelerating decay especially with frequent sugar consumption.",
+    "question": "How is colorectal cancer screened?",
+    "ground_truth": "Colorectal cancer is screened using colonoscopy (the gold standard, recommended every 10 years starting at age 45), flexible sigmoidoscopy every 5 years, CT colonography every 5 years, or stool-based tests including the annual fecal immunochemical test (FIT) or stool DNA test (Cologuard) every 1 to 3 years. People with family history or inflammatory bowel disease may need earlier or more frequent screening.",
     "category": "SEMANTIC"
   },
   {
     "id": 27,
-    "question": "What is the difference between aerobic and anaerobic exercise?",
-    "ground_truth": "Aerobic exercise uses oxygen to produce energy (ATP) through the complete oxidation of glucose and fat via cellular respiration, and is sustainable for extended periods. Anaerobic exercise produces energy without oxygen through glycolysis, creating lactic acid as a byproduct; it is used for short intense bursts of activity such as sprinting or weightlifting. Aerobic exercise improves cardiovascular fitness and endurance, while anaerobic exercise builds muscle strength and power.",
+    "question": "What are the risk factors for stroke?",
+    "ground_truth": "Risk factors for stroke include high blood pressure (the most important modifiable risk factor), atrial fibrillation, diabetes, high cholesterol, smoking, physical inactivity, obesity, and excessive alcohol use. Non-modifiable risk factors include age, family history, and race. A prior stroke or transient ischemic attack (TIA) significantly increases the risk of future stroke.",
     "category": "SEMANTIC"
   },
   {
     "id": 28,
-    "question": "How do the kidneys filter blood?",
-    "ground_truth": "The kidneys filter blood through about one million tiny units called nephrons. Blood enters each nephron's glomerulus where pressure forces water, salts, glucose, and waste products into the tubule. As filtrate travels through the tubule, useful substances including glucose, most water, and essential salts are reabsorbed into surrounding capillaries. Waste products such as urea and creatinine remain and are concentrated into urine, which flows to the bladder for excretion.",
+    "question": "How is glaucoma treated?",
+    "ground_truth": "Glaucoma is treated primarily by lowering intraocular pressure (IOP) to prevent further optic nerve damage. First-line treatment is typically eye drops such as prostaglandin analogs, beta-blockers, or carbonic anhydrase inhibitors. If eye drops are insufficient, laser trabeculoplasty (SLT) or surgical procedures such as trabeculectomy may be performed. Treatment is lifelong since glaucoma cannot be cured but progression can be halted.",
     "category": "SEMANTIC"
   },
   {
     "id": 29,
-    "question": "What causes allergies?",
-    "ground_truth": "Allergies occur when the immune system mistakenly identifies a harmless substance (allergen) such as pollen, pet dander, or certain foods as a dangerous pathogen. On first exposure the body produces IgE antibodies against the allergen. On subsequent exposures these IgE antibodies trigger mast cells to release histamine and other chemicals, causing allergy symptoms including sneezing, itching, swelling, and hives. Genetic predisposition and early childhood exposures influence allergy development.",
+    "question": "What is the difference between Type 1 and Type 2 diabetes?",
+    "ground_truth": "Type 1 diabetes is an autoimmune disease in which the immune system destroys insulin-producing beta cells, resulting in no insulin production; it typically develops in childhood and always requires insulin therapy. Type 2 diabetes involves insulin resistance combined with progressive decline in pancreatic insulin secretion; it typically develops in adults and can often be managed initially with lifestyle changes and oral medications before insulin is needed.",
     "category": "SEMANTIC"
   },
   {
     "id": 30,
-    "question": "How do magnets work?",
-    "ground_truth": "Magnets generate force through the alignment of magnetic domains, which are regions where atoms' magnetic moments point in the same direction. In permanent magnets the domains remain aligned. Opposite poles attract because their magnetic field lines reinforce each other, while like poles repel. Electromagnets generate magnetic fields through electrical current: moving electric charges create magnetic fields, and coiling the wire around a core amplifies the magnetic effect.",
+    "question": "What are the symptoms of congestive heart failure?",
+    "ground_truth": "Congestive heart failure symptoms include shortness of breath especially when lying flat or during exertion, leg and ankle swelling (peripheral edema), fatigue and weakness, rapid or irregular heartbeat, and persistent cough or wheezing. Weight gain from fluid retention and frequent nighttime urination are also common. Symptoms reflect the heart's inability to pump blood efficiently to meet the body's needs.",
     "category": "SEMANTIC"
   },
   {
     "id": 31,
-    "question": "What is the difference between renewable and non-renewable energy?",
-    "ground_truth": "Renewable energy comes from sources that are naturally replenished on a human timescale, including solar, wind, hydroelectric, geothermal, and biomass. They produce little to no greenhouse gas emissions during operation. Non-renewable energy comes from fossil fuels such as coal, oil, and natural gas, which were formed over millions of years from organic matter and cannot be replaced at the rate they are consumed. Burning fossil fuels releases carbon dioxide contributing to climate change.",
+    "question": "How is childhood asthma managed?",
+    "ground_truth": "Childhood asthma management follows a stepwise approach based on severity. It includes daily controller medications (typically inhaled corticosteroids for persistent asthma), quick-relief bronchodilators for acute symptoms, avoidance of triggers, and regular lung function monitoring. An asthma action plan helps parents and children recognize and respond to worsening symptoms, and environmental control measures such as reducing dust mites and pet dander are important.",
     "category": "SEMANTIC"
   },
   {
     "id": 32,
-    "question": "How does fermentation work in food production?",
-    "ground_truth": "Fermentation is a metabolic process where microorganisms such as yeast and bacteria convert sugars into other compounds, typically alcohol or acids, in the absence of oxygen. Yeast fermentation converts glucose to ethanol and carbon dioxide, used in bread-making (CO2 causes rising) and brewing (ethanol produces alcohol). Lactic acid fermentation by bacteria produces lactic acid, used in yogurt, cheese, sauerkraut, and kimchi. Fermentation preserves food and enhances flavor.",
+    "question": "What causes celiac disease?",
+    "ground_truth": "Celiac disease is an autoimmune disorder caused by an immune reaction to gluten — a protein in wheat, barley, and rye — in genetically susceptible individuals who carry HLA-DQ2 or HLA-DQ8 genes. When someone with celiac disease eats gluten, the immune response damages the villi of the small intestine, impairing nutrient absorption. The only effective treatment is a strict, lifelong gluten-free diet.",
     "category": "SEMANTIC"
   },
   {
     "id": 33,
-    "question": "How does the human brain form and store memories?",
-    "ground_truth": "Memory formation involves multiple brain regions. The hippocampus consolidates short-term memories into long-term storage through a process called memory consolidation. Neurons form new connections (synapses) through long-term potentiation, where repeated stimulation strengthens synaptic connections. Working memory is held temporarily in the prefrontal cortex. Long-term memories are distributed across the cortex and retrieved by reactivating the same neural patterns formed during the original experience.",
+    "question": "How does clinical depression differ from normal sadness or grief?",
+    "ground_truth": "Clinical depression (major depressive disorder) differs from normal sadness in duration, severity, and functional impact. It persists for at least two weeks, involves persistent depressed mood or loss of interest, and is accompanied by physical symptoms such as changes in sleep, appetite, energy, and feelings of worthlessness. Normal grief typically follows a specific loss and gradually improves over time. Depression requires professional treatment.",
     "category": "SEMANTIC"
   },
   {
     "id": 34,
-    "question": "Who wrote Romeo and Juliet?",
-    "ground_truth": "Romeo and Juliet was written by William Shakespeare, believed to have been composed between 1594 and 1596. It is a tragedy set in Verona, Italy, and is one of the most frequently performed plays in the English language. The story of the ill-fated young lovers from feuding families has become a defining work of Western literature.",
+    "question": "What is A1C?",
+    "ground_truth": "A1C (hemoglobin A1C or glycated hemoglobin) is a blood test that measures average blood glucose levels over the past 2 to 3 months. It is used to diagnose and monitor diabetes. An A1C below 5.7% is normal, 5.7–6.4% indicates prediabetes, and 6.5% or higher on two separate tests confirms diabetes.",
     "category": "KEYWORD"
   },
   {
     "id": 35,
-    "question": "When did World War II end?",
-    "ground_truth": "World War II ended in 1945. The war in Europe ended on May 8, 1945 (V-E Day) with Germany's unconditional surrender. The war in the Pacific ended on September 2, 1945 (V-J Day) when Japan formally surrendered aboard the USS Missouri in Tokyo Bay following the atomic bombings of Hiroshima and Nagasaki.",
+    "question": "What is hypertension?",
+    "ground_truth": "Hypertension (high blood pressure) is a condition in which the long-term force of blood against artery walls is high enough to cause health problems such as heart disease and stroke. Blood pressure is measured as systolic over diastolic pressure; a reading of 130/80 mmHg or higher is classified as hypertension. It is often called the silent killer because it typically has no symptoms.",
     "category": "KEYWORD"
   },
   {
     "id": 36,
-    "question": "What is the capital of France?",
-    "ground_truth": "Paris is the capital and largest city of France. It is located in northern France on the River Seine and has been the country's capital since the 10th century. Paris is known for landmarks such as the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral, and is considered a global center for art, fashion, and culture.",
+    "question": "What is asthma?",
+    "ground_truth": "Asthma is a chronic lung disease that inflames and narrows the airways, causing recurring episodes of wheezing, breathlessness, chest tightness, and coughing. During an attack, airway muscles tighten (bronchospasm), airways swell, and mucus production increases. Common triggers include allergens, exercise, cold air, respiratory infections, and smoke.",
     "category": "KEYWORD"
   },
   {
     "id": 37,
-    "question": "Who invented the telephone?",
-    "ground_truth": "Alexander Graham Bell is generally credited with inventing the telephone and received the first patent for it on March 7, 1876. Bell made the first successful telephone call on March 10, 1876, speaking to his assistant Thomas Watson. Italian inventor Antonio Meucci and Elisha Gray also made significant contributions to telephone development around the same period.",
+    "question": "What is type 2 diabetes?",
+    "ground_truth": "Type 2 diabetes is a chronic condition in which the body doesn't use insulin properly (insulin resistance) and eventually cannot produce enough insulin to maintain normal blood glucose levels. It accounts for 90 to 95 percent of all diabetes cases and is strongly associated with overweight, physical inactivity, and family history. Management includes lifestyle modifications, oral medications such as metformin, and sometimes insulin.",
     "category": "KEYWORD"
   },
   {
     "id": 38,
-    "question": "Which country has the largest population in the world?",
-    "ground_truth": "India surpassed China to become the world's most populous country in 2023, with a population exceeding 1.4 billion people. China is the second most populous country, also with over 1.4 billion people, followed by the United States with approximately 335 million people.",
+    "question": "What is coronary artery disease?",
+    "ground_truth": "Coronary artery disease (CAD) is the most common form of heart disease and occurs when plaque builds up in the walls of the coronary arteries that supply blood to the heart (atherosclerosis). Reduced blood flow can cause chest pain (angina), shortness of breath, and heart attack. Risk factors include high cholesterol, high blood pressure, smoking, diabetes, and family history.",
     "category": "KEYWORD"
   },
   {
     "id": 39,
-    "question": "Who painted the Mona Lisa?",
-    "ground_truth": "The Mona Lisa was painted by Leonardo da Vinci, believed to have been worked on between approximately 1503 and 1519. It is a portrait believed to depict Lisa Gherardini, the wife of Florentine merchant Francesco del Giocondo. The painting is housed in the Louvre Museum in Paris and is considered the world's most famous painting.",
+    "question": "What is breast cancer?",
+    "ground_truth": "Breast cancer is a disease in which cells in the breast grow out of control. It is the most common cancer in women worldwide, though men can also develop it. Types include ductal carcinoma in situ, invasive ductal carcinoma, and invasive lobular carcinoma. Treatment depending on stage and type may include surgery, radiation, chemotherapy, hormone therapy, and targeted therapy.",
     "category": "KEYWORD"
   },
   {
     "id": 40,
-    "question": "What is the tallest mountain in the world?",
-    "ground_truth": "Mount Everest is the tallest mountain in the world, with a summit elevation of 8,849 meters (29,032 feet) above sea level. It is located in the Himalayas on the border between Nepal and Tibet (China). It was first summited by New Zealand mountaineer Edmund Hillary and Nepali Sherpa Tenzing Norgay on May 29, 1953.",
+    "question": "What is HIV?",
+    "ground_truth": "HIV (human immunodeficiency virus) is a virus that attacks the body's immune system. If untreated, HIV can lead to AIDS (acquired immunodeficiency syndrome), the most severe stage of infection. HIV is spread through contact with certain body fluids. Although there is no cure, antiretroviral therapy (ART) can control the virus and allow people with HIV to live long, healthy lives.",
     "category": "KEYWORD"
   },
   {
     "id": 41,
-    "question": "Who was the first person to walk on the Moon?",
-    "ground_truth": "Neil Armstrong was the first person to walk on the Moon on July 20, 1969, during the Apollo 11 mission. He was followed shortly after by fellow astronaut Buzz Aldrin, while Michael Collins orbited above in the command module. Armstrong's words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.'",
+    "question": "What is depression?",
+    "ground_truth": "Depression (major depressive disorder) is a common and serious medical illness that negatively affects how a person feels, thinks, and acts. It causes persistent feelings of sadness and loss of interest in activities, along with physical symptoms such as changes in sleep, appetite, energy, and concentration. Depression is treatable through psychotherapy, antidepressant medications, or a combination of both.",
     "category": "KEYWORD"
   },
   {
     "id": 42,
-    "question": "What language is spoken in Brazil?",
-    "ground_truth": "Portuguese is the official and most widely spoken language in Brazil. Brazil is the only Portuguese-speaking country in South America. Portuguese was brought to the region when Portugal colonized Brazil beginning in 1500, and Brazil is today the largest Portuguese-speaking country in the world by population.",
+    "question": "What is rheumatoid arthritis?",
+    "ground_truth": "Rheumatoid arthritis (RA) is an autoimmune and inflammatory disease in which the immune system attacks healthy joint cells, causing inflammation in affected joints — typically the hands, wrists, and knees. RA can cause joint lining thickening, leading to swelling, pain, and eventual joint damage. It also affects other body systems including the cardiovascular and respiratory systems.",
     "category": "KEYWORD"
   },
   {
     "id": 43,
-    "question": "Who discovered penicillin?",
-    "ground_truth": "Alexander Fleming discovered penicillin in 1928 when he noticed that a mold called Penicillium notatum was killing bacteria in a petri dish at St. Mary's Hospital in London. Howard Florey and Ernst Chain later developed it into a usable antibiotic during World War II. All three scientists shared the Nobel Prize in Physiology or Medicine in 1945 for this discovery.",
+    "question": "What is Alzheimer's disease?",
+    "ground_truth": "Alzheimer's disease is the most common cause of dementia, accounting for 60 to 80 percent of cases. It is a progressive brain disease that destroys memory and other important mental functions through the buildup of amyloid plaques and tau tangles. Alzheimer's typically begins with mild memory loss and progresses to the inability to carry on a conversation or respond to the environment.",
     "category": "KEYWORD"
   },
   {
     "id": 44,
-    "question": "What is the capital of Australia?",
-    "ground_truth": "Canberra is the capital city of Australia. It was purpose-built as a compromise between the rival cities of Sydney and Melbourne and became the capital in 1913. Parliament officially moved there in 1927. Despite being the capital, Sydney remains Australia's largest city and is often mistakenly thought to be the capital.",
+    "question": "What is COPD?",
+    "ground_truth": "Chronic obstructive pulmonary disease (COPD) is a chronic inflammatory lung disease that causes obstructed airflow from the lungs. Symptoms include breathing difficulty, chronic cough, mucus production, and wheezing. COPD is caused mainly by long-term exposure to irritating gases or particulate matter, most often cigarette smoke. People with COPD are at increased risk of heart disease and lung cancer.",
     "category": "KEYWORD"
   },
   {
     "id": 45,
-    "question": "When was the Eiffel Tower built?",
-    "ground_truth": "The Eiffel Tower was built between 1887 and 1889 as the entrance arch for the 1889 World's Fair in Paris, held to celebrate the centennial of the French Revolution. It was designed by Gustave Eiffel's engineering company. At the time of its completion it was the world's tallest man-made structure and held that record for 41 years until the Chrysler Building was completed in New York in 1930.",
+    "question": "What is chronic kidney disease?",
+    "ground_truth": "Chronic kidney disease (CKD) is the gradual loss of kidney function over time, characterized by the accumulation of fluid, electrolytes, and waste products in the blood. CKD is staged from 1 to 5 based on glomerular filtration rate (GFR), with stage 5 being kidney failure requiring dialysis or transplantation. The most common causes are diabetes and high blood pressure.",
     "category": "KEYWORD"
   },
   {
     "id": 46,
-    "question": "Who wrote the play Hamlet?",
-    "ground_truth": "Hamlet was written by William Shakespeare, believed to have been composed between 1599 and 1601. It is a tragedy about Prince Hamlet of Denmark and his quest for revenge against his uncle Claudius, who has murdered Hamlet's father and seized the throne. It is one of the most frequently performed plays in the world and contains some of the most quoted lines in the English language.",
+    "question": "What is obesity?",
+    "ground_truth": "Obesity is a complex disease involving an excessive amount of body fat that increases the risk of many health problems including heart disease, type 2 diabetes, high blood pressure, and certain cancers. A body mass index (BMI) of 30 or higher is classified as obese. Causes include genetic, behavioral, metabolic, and hormonal factors. Treatment includes lifestyle changes, medications, and in some cases bariatric surgery.",
     "category": "KEYWORD"
   },
   {
     "id": 47,
-    "question": "What is the largest ocean on Earth?",
-    "ground_truth": "The Pacific Ocean is the largest ocean on Earth, covering approximately 165 million square kilometers, more than all of Earth's landmasses combined. It stretches from the Arctic in the north to the Antarctic in the south, and is bounded by Asia and Australia to the west and the Americas to the east. The Pacific contains the deepest point on Earth, the Challenger Deep in the Mariana Trench.",
+    "question": "What is influenza?",
+    "ground_truth": "Influenza (flu) is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. Symptoms include fever, cough, sore throat, runny nose, body aches, headache, chills, and fatigue. Annual vaccination is the best way to prevent flu and its potentially serious complications, including pneumonia and hospitalization.",
     "category": "KEYWORD"
   },
   {
     "id": 48,
-    "question": "Who was Napoleon Bonaparte?",
-    "ground_truth": "Napoleon Bonaparte (1769-1821) was a French military commander and political leader who rose to prominence during the French Revolution and became Emperor of the French from 1804 to 1814 and briefly in 1815. He is known for his military campaigns that dominated much of Europe and for implementing legal reforms known as the Napoleonic Code, which influenced legal systems worldwide. He was ultimately defeated at the Battle of Waterloo and died in exile on the island of Saint Helena.",
+    "question": "What is hypothyroidism?",
+    "ground_truth": "Hypothyroidism is a condition in which the thyroid gland doesn't produce enough thyroid hormone, slowing many of the body's functions. Symptoms include fatigue, weight gain, cold sensitivity, constipation, dry skin, slowed heart rate, and depression. It is most commonly caused by Hashimoto's disease and is treated with daily levothyroxine replacement therapy.",
     "category": "KEYWORD"
   },
   {
     "id": 49,
-    "question": "When did the French Revolution begin?",
-    "ground_truth": "The French Revolution began in 1789. A key early event was the storming of the Bastille fortress on July 14, 1789, now celebrated as Bastille Day, France's national holiday. The Revolution ended the monarchy, established a republic, and led to the Reign of Terror and eventually Napoleon Bonaparte's rise to power. It caused significant social and political transformations across France and Europe.",
+    "question": "What is osteoporosis?",
+    "ground_truth": "Osteoporosis is a bone disease in which the body loses too much bone or makes too little bone, causing bones to become weak and brittle. It is often called a silent disease because bone loss occurs without symptoms until a fracture occurs. The hip, wrist, and spine are the most common fracture sites. Risk factors include age, female sex, menopause, low calcium intake, smoking, and steroid use.",
     "category": "KEYWORD"
   },
   {
     "id": 50,
-    "question": "What is the capital of Japan?",
-    "ground_truth": "Tokyo is the capital and largest city of Japan. It serves as the seat of the Japanese government and is home to the Imperial Palace. With over 13 million people in the city proper and approximately 37 million in the greater metropolitan area, the Tokyo metropolitan area is one of the most populous urban areas in the world. Tokyo was formerly known as Edo and became the capital in 1869.",
+    "question": "What is colorectal cancer?",
+    "ground_truth": "Colorectal cancer is cancer that occurs in the colon or rectum. It is the third most common cancer in both men and women in the United States. Most colorectal cancers begin as polyps on the inner lining of the colon or rectum that can be detected and removed by screening. Risk factors include age over 50, family history, inflammatory bowel disease, and an unhealthy diet.",
     "category": "KEYWORD"
   },
   {
     "id": 51,
-    "question": "Who invented the light bulb?",
-    "ground_truth": "Thomas Edison is generally credited with inventing the first practical incandescent light bulb in 1879 after testing thousands of filament materials before settling on carbonized bamboo. He also developed a complete electrical distribution system to make electric lighting commercially viable. British inventor Joseph Swan independently developed a similar device around the same time, and the two later formed a joint company in Britain.",
+    "question": "What is Parkinson's disease?",
+    "ground_truth": "Parkinson's disease is a brain disorder that causes unintended or uncontrollable movements including tremor, stiffness, and difficulty with balance and coordination. It occurs when dopamine-producing neurons in the brain die or become impaired. Symptoms begin gradually and worsen over time. Although there is no cure, medications, surgery, and therapy can help manage symptoms.",
     "category": "KEYWORD"
   },
   {
     "id": 52,
-    "question": "Which is the longest river in the world?",
-    "ground_truth": "The Nile River in Africa is traditionally cited as the world's longest river at approximately 6,650 kilometers (4,130 miles), flowing northward through northeastern Africa into the Mediterranean Sea. Some recent measurements have suggested the Amazon River in South America may be longer depending on how the source is defined, but the Nile is most widely recognized as the longest river.",
+    "question": "What is lupus?",
+    "ground_truth": "Lupus (systemic lupus erythematosus) is a chronic autoimmune disease in which the immune system attacks healthy tissue throughout the body, potentially affecting the skin, joints, kidneys, brain, heart, and lungs. The most distinctive sign is a butterfly-shaped rash on the cheeks and nose. Lupus is characterized by flares and remissions. More than 90 percent of people with lupus are women.",
     "category": "KEYWORD"
   },
   {
     "id": 53,
-    "question": "When was the United Nations founded?",
-    "ground_truth": "The United Nations was founded on October 24, 1945, after World War II, when the UN Charter was ratified by the five permanent members: China, France, the Soviet Union, the United Kingdom, and the United States. It was established to promote international peace, security, and cooperation. October 24 is observed annually as United Nations Day. The UN replaced the earlier League of Nations.",
+    "question": "What is multiple sclerosis?",
+    "ground_truth": "Multiple sclerosis (MS) is a disease of the brain and spinal cord in which the immune system attacks the myelin sheath protecting nerve fibers, causing communication problems between the brain and the body. Symptoms vary widely and include fatigue, difficulty walking, numbness, vision problems, and cognitive changes. Disease-modifying therapies can slow progression in many patients.",
     "category": "KEYWORD"
   },
   {
     "id": 54,
-    "question": "Who wrote A Tale of Two Cities?",
-    "ground_truth": "A Tale of Two Cities was written by Charles Dickens and first published in 1859. Set during the French Revolution in both London and Paris, it opens with the famous line 'It was the best of times, it was the worst of times.' The novel follows characters caught up in the violence of the Revolution and is one of the best-selling novels of all time.",
+    "question": "What is epilepsy?",
+    "ground_truth": "Epilepsy is a neurological disorder in which brain activity becomes abnormal, causing seizures or periods of unusual behavior, sensations, and sometimes loss of awareness. Seizures can range from brief lapses of attention (absence seizures) to lengthy convulsions. Epilepsy affects people of all ages and is usually treated with antiseizure medications; about 70 percent of people with epilepsy can control their seizures with medication.",
     "category": "KEYWORD"
   },
   {
     "id": 55,
-    "question": "What is the largest desert in the world?",
-    "ground_truth": "Antarctica is the world's largest desert, covering approximately 14.2 million square kilometers. A desert is defined by low precipitation rather than heat, and Antarctica receives very little snowfall annually. The Sahara in North Africa, at about 9.2 million square kilometers, is the world's largest hot desert. The Arabian Desert is the world's largest subtropical desert.",
+    "question": "What is sickle cell disease?",
+    "ground_truth": "Sickle cell disease (SCD) is a group of inherited red blood cell disorders in which abnormal hemoglobin causes red blood cells to become rigid, sticky, and sickle-shaped. These abnormal cells can block blood flow and cause pain episodes (crises), organ damage, stroke, and anemia. SCD primarily affects people of African, Mediterranean, Middle Eastern, and Indian ancestry.",
     "category": "KEYWORD"
   },
   {
     "id": 56,
-    "question": "Who developed the theory of relativity?",
-    "ground_truth": "Albert Einstein developed the theory of relativity. His special theory of relativity, published in 1905, introduced the famous equation E=mc2, which states that mass and energy are interchangeable. His general theory of relativity, published in 1915, described gravity as the curvature of spacetime caused by mass and energy, replacing Newton's earlier theory of gravitation.",
+    "question": "What is cystic fibrosis?",
+    "ground_truth": "Cystic fibrosis (CF) is a hereditary disease caused by mutations in the CFTR gene that controls salt and water movement in cells. Defective CFTR protein leads to thick, sticky mucus that clogs the lungs and obstructs the pancreas. CF is treated with airway clearance techniques, inhaled medications, antibiotics, pancreatic enzyme replacement, and CFTR modulator drugs that target the underlying protein defect.",
     "category": "KEYWORD"
   },
   {
     "id": 57,
-    "question": "What is the capital of Canada?",
-    "ground_truth": "Ottawa is the capital city of Canada, located in the province of Ontario near the Quebec border. It became the capital in 1857 when Queen Victoria chose it as a compromise between the rival cities of Toronto and Montreal. Ottawa is the seat of the Canadian Parliament and the federal government. It is the fourth largest city in Canada.",
+    "question": "What is Crohn's disease?",
+    "ground_truth": "Crohn's disease is a type of inflammatory bowel disease (IBD) causing inflammation of the digestive tract lining, most commonly affecting the end of the small intestine and beginning of the colon. It is a chronic condition causing severe diarrhea, abdominal pain, fatigue, weight loss, and malnutrition. Treatment includes anti-inflammatory medications, immune system suppressors, and biologic therapies.",
     "category": "KEYWORD"
   },
   {
     "id": 58,
-    "question": "When did the American Civil War end?",
-    "ground_truth": "The American Civil War ended in 1865. The war effectively ended when Confederate General Robert E. Lee surrendered to Union General Ulysses S. Grant at Appomattox Court House, Virginia, on April 9, 1865. The last major Confederate forces surrendered in June 1865. The war had been fought from 1861 to 1865 and resulted in the abolition of slavery via the 13th Amendment.",
+    "question": "What is glaucoma?",
+    "ground_truth": "Glaucoma is a group of eye conditions that damage the optic nerve, vital for good vision, often caused by abnormally high intraocular pressure. It is one of the leading causes of blindness in people over 60 and is often called the silent thief of sight because it has no symptoms in early stages. Open-angle glaucoma is the most common type. Treatment aims to lower eye pressure through drops, laser treatment, or surgery.",
     "category": "KEYWORD"
   },
   {
     "id": 59,
-    "question": "Who was the first President of the United States?",
-    "ground_truth": "George Washington was the first President of the United States, serving two terms from 1789 to 1797. He was unanimously elected by the Electoral College and is often called the 'Father of His Country' for his leadership during the American Revolutionary War and his role in establishing the new nation's government. He set many presidential precedents, including voluntarily stepping down after two terms.",
+    "question": "What is a migraine?",
+    "ground_truth": "A migraine is a type of headache characterized by severe throbbing pain usually on one side of the head, often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraines can last hours to days and may occur in phases: prodrome, aura (in some people), headache, and postdrome. Both acute treatments such as triptans and preventive medications are available.",
     "category": "KEYWORD"
   },
   {
     "id": 60,
-    "question": "What is the smallest country in the world?",
-    "ground_truth": "Vatican City is the world's smallest country, with an area of approximately 44 hectares (0.44 square kilometers) and a population of about 800 people. It is an independent city-state enclaved within Rome, Italy, and serves as the headquarters of the Roman Catholic Church and the residence of the Pope. It became an independent state in 1929 through the Lateran Treaty.",
+    "question": "What is high blood pressure?",
+    "ground_truth": "High blood pressure (hypertension) is a condition in which the force of blood against artery walls is consistently too high, often causing no symptoms but leading to serious health problems including heart disease, stroke, and kidney damage. Blood pressure is expressed as systolic over diastolic pressure; 130/80 mmHg or higher is classified as hypertension. Lifestyle changes and medications are used to manage it.",
     "category": "KEYWORD"
   },
   {
     "id": 61,
-    "question": "Who invented the printing press?",
-    "ground_truth": "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. His printing press used movable metal type and oil-based ink, allowing for the mass production of books. The most famous product of his press was the Gutenberg Bible, printed around 1455. The invention revolutionized the spread of information in Europe and is considered one of the most important inventions in human history.",
+    "question": "What is high cholesterol?",
+    "ground_truth": "High cholesterol (hypercholesterolemia) refers to elevated levels of cholesterol in the blood, particularly LDL cholesterol, which can build up in artery walls and increase the risk of heart disease and stroke. High cholesterol has no symptoms and is detected through a blood lipid panel. Total cholesterol below 200 mg/dL is desirable. Treatment includes dietary changes, exercise, and statin medications when needed.",
     "category": "KEYWORD"
   },
   {
     "id": 62,
-    "question": "What is the capital of Russia?",
-    "ground_truth": "Moscow is the capital and largest city of Russia. It is the country's political, economic, and cultural center, and is home to the Kremlin, which serves as the official residence and workplace of the President of Russia. Moscow has been Russia's capital since 1918. Before that, Saint Petersburg (then called Petrograd) served as the imperial capital from 1712 until the revolution.",
+    "question": "What is melanoma?",
+    "ground_truth": "Melanoma is the most serious type of skin cancer, developing from pigment-producing melanocytes. It can appear anywhere on the body but most often on sun-exposed areas. The ABCDE rule helps identify suspicious lesions: Asymmetry, irregular Border, Color variation, Diameter greater than 6 mm, and Evolving appearance. Early detection greatly improves prognosis; advanced melanoma is treated with immunotherapy and targeted therapy.",
     "category": "KEYWORD"
   },
   {
     "id": 63,
-    "question": "When was the Berlin Wall torn down?",
-    "ground_truth": "The Berlin Wall fell on November 9, 1989. On that evening East Germany announced that citizens could cross the border freely, and crowds gathered and began demolishing sections of the wall. The Berlin Wall had divided East and West Berlin since August 13, 1961 as part of the Iron Curtain. German reunification followed on October 3, 1990, marking the end of the Cold War division of Germany.",
+    "question": "What is pneumonia?",
+    "ground_truth": "Pneumonia is an infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus. Symptoms include cough with phlegm, fever, chills, and difficulty breathing. It can be caused by bacteria (most commonly Streptococcus pneumoniae), viruses, or fungi. Pneumonia is most serious in infants, older adults, and immunocompromised individuals. Treatment depends on the causative organism.",
     "category": "KEYWORD"
   },
   {
     "id": 64,
-    "question": "Who wrote Pride and Prejudice?",
-    "ground_truth": "Pride and Prejudice was written by Jane Austen and published on January 28, 1813. The novel follows Elizabeth Bennet, the second of five daughters in a middle-class English family, and her complex relationship with the proud and wealthy Mr. Darcy. It is one of the most beloved novels in the English language and has never been out of print since its first publication.",
+    "question": "What is insomnia?",
+    "ground_truth": "Insomnia is a sleep disorder in which people have trouble falling asleep, staying asleep, or getting restful sleep, resulting in daytime fatigue and impaired function. It can be acute (short-term) or chronic (lasting at least 3 months). The most effective treatment is cognitive behavioral therapy for insomnia (CBT-I). Medications may be used short-term. Good sleep hygiene, including a consistent sleep schedule, also helps.",
     "category": "KEYWORD"
   },
   {
     "id": 65,
-    "question": "What is the highest waterfall in the world?",
-    "ground_truth": "Angel Falls in Venezuela is the world's highest uninterrupted waterfall, with a total height of 979 meters (3,212 feet) and a plunge of 807 meters (2,648 feet). It is located in Canaima National Park, a UNESCO World Heritage Site. The falls are named after American aviator Jimmie Angel who flew over them in 1933 and landed on the tepui above the falls in 1937.",
+    "question": "What is anemia?",
+    "ground_truth": "Anemia is a condition in which the blood doesn't have enough healthy red blood cells or hemoglobin to carry adequate oxygen to body tissues. The most common type is iron-deficiency anemia. Symptoms include fatigue, weakness, pale skin, shortness of breath, dizziness, and cold hands and feet. Anemia can result from blood loss, decreased red blood cell production, or increased red blood cell destruction.",
     "category": "KEYWORD"
   },
   {
     "id": 66,
-    "question": "Which planet is closest to the Sun?",
-    "ground_truth": "Mercury is the planet closest to the Sun in our solar system, orbiting at an average distance of about 57.9 million kilometers (36 million miles). Despite being closest to the Sun, Mercury is not the hottest planet; Venus holds that distinction due to its dense atmosphere creating an extreme greenhouse effect. Mercury has no atmosphere to retain heat and has extreme temperature swings.",
+    "question": "What is an anxiety disorder?",
+    "ground_truth": "Anxiety disorders are conditions characterized by excessive, persistent fear and worry that are difficult to control and interfere with daily activities. Types include generalized anxiety disorder (GAD), panic disorder, social anxiety disorder, and specific phobias. Symptoms include restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and sleep problems. Anxiety disorders are treated with cognitive behavioral therapy (CBT) and medications such as SSRIs.",
     "category": "KEYWORD"
   },
   {
@@ -404,233 +404,233 @@
   },
   {
     "id": 68,
-    "question": "How many female patients are in the database?",
-    "ground_truth": "There are 62 female patients in the database.",
+    "question": "How many patients are currently alive with no recorded death date?",
+    "ground_truth": "98 patients are currently alive with no recorded death date.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"gender\" = 'F'"
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"deathdate\" IS NULL"
   },
   {
     "id": 69,
-    "question": "How many male patients are in the database?",
-    "ground_truth": "There are 49 male patients in the database.",
+    "question": "How many patients are deceased?",
+    "ground_truth": "13 patients are deceased.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"gender\" = 'M'"
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"deathdate\" IS NOT NULL"
   },
   {
     "id": 70,
-    "question": "How many encounters are recorded in the database?",
-    "ground_truth": "There are 6,032 encounters recorded in the database.",
+    "question": "How many total encounters are recorded in the database?",
+    "ground_truth": "There are 6,032 total encounters recorded in the database.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT COUNT(*) FROM \"encounters\""
   },
   {
     "id": 71,
+    "question": "What is the most common encounter class in the database?",
+    "ground_truth": "Ambulatory is the most common encounter class with 3,225 encounters.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"encounterclass\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"encounterclass\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 72,
+    "question": "How many emergency encounters are recorded in the database?",
+    "ground_truth": "There are 216 emergency encounters recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"encounters\" WHERE \"encounterclass\" = 'emergency'"
+  },
+  {
+    "id": 73,
+    "question": "How many inpatient encounters are recorded in the database?",
+    "ground_truth": "There are 101 inpatient encounters recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"encounters\" WHERE \"encounterclass\" = 'inpatient'"
+  },
+  {
+    "id": 74,
     "question": "What is the average total claim cost per encounter?",
     "ground_truth": "The average total claim cost per encounter is $2,872.54.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT ROUND(AVG(\"total_claim_cost\")::numeric, 2) FROM \"encounters\""
   },
   {
-    "id": 72,
-    "question": "What is the most common encounter class in the database?",
-    "ground_truth": "The most common encounter class is ambulatory with 3,225 encounters.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"encounterclass\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"encounterclass\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 73,
-    "question": "How many conditions are recorded in the database?",
-    "ground_truth": "There are 3,817 conditions recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"conditions\""
-  },
-  {
-    "id": 74,
-    "question": "What is the most common condition in the database?",
-    "ground_truth": "The most common condition is 'Medication review due (situation)' with 675 records.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"conditions\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
     "id": 75,
-    "question": "How many medications are recorded in the database?",
-    "ground_truth": "There are 4,227 medications recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"medications\""
-  },
-  {
-    "id": 76,
-    "question": "How many active medications have no recorded stop date?",
-    "ground_truth": "There are 292 active medications with no recorded stop date.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"medications\" WHERE \"stop\" IS NULL"
-  },
-  {
-    "id": 77,
-    "question": "How many procedures are recorded in the database?",
-    "ground_truth": "There are 17,034 procedures recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"procedures\""
-  },
-  {
-    "id": 78,
-    "question": "What is the average base cost of a procedure?",
-    "ground_truth": "The average base cost of a procedure is $996.75.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"procedures\""
-  },
-  {
-    "id": 79,
-    "question": "How many observations are recorded in the database?",
-    "ground_truth": "There are 72,372 observations recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"observations\""
-  },
-  {
-    "id": 80,
-    "question": "How many immunizations are recorded in the database?",
-    "ground_truth": "There are 1,565 immunizations recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"immunizations\""
-  },
-  {
-    "id": 81,
-    "question": "How many allergy records are in the database?",
-    "ground_truth": "There are 79 allergy records in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"allergies\""
-  },
-  {
-    "id": 82,
-    "question": "How many organizations are in the database?",
-    "ground_truth": "There are 291 organizations in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"organizations\""
-  },
-  {
-    "id": 83,
-    "question": "How many providers are in the database?",
-    "ground_truth": "There are 291 providers in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"providers\""
-  },
-  {
-    "id": 84,
-    "question": "Which state has the most patients?",
-    "ground_truth": "Massachusetts has the most patients with 111 patients.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"state\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"state\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 85,
-    "question": "How many patients are currently alive with no recorded death date?",
-    "ground_truth": "There are 98 patients currently alive with no recorded death date.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"deathdate\" IS NULL"
-  },
-  {
-    "id": 86,
-    "question": "What are the top 5 most common conditions in the database?",
-    "ground_truth": "The top 5 most common conditions are: Medication review due (situation) (675), Stress (finding) (300), Gingivitis (disorder) (271), Full-time employment (finding) (258), and Part-time employment (finding) (156).",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"conditions\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 5"
-  },
-  {
-    "id": 87,
-    "question": "What is the most common encounter description?",
-    "ground_truth": "The most common encounter description is 'Encounter for problem (procedure)' with 1,383 occurrences.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 88,
-    "question": "How many distinct medication descriptions are there?",
-    "ground_truth": "There are 136 distinct medication descriptions in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(DISTINCT \"description\") FROM \"medications\""
-  },
-  {
-    "id": 89,
-    "question": "Which organization has handled the most patient encounters?",
-    "ground_truth": "LAWRENCE GENERAL HOSPITAL has handled the most patient encounters with 656 encounters.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT o.\"name\", COUNT(*) AS cnt FROM \"encounters\" e JOIN \"organizations\" o ON e.\"organization\" = o.\"id\" GROUP BY o.\"name\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 90,
     "question": "What is the average payer coverage per encounter?",
     "ground_truth": "The average payer coverage per encounter is $2,117.92.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT ROUND(AVG(\"payer_coverage\")::numeric, 2) FROM \"encounters\""
   },
   {
-    "id": 91,
-    "question": "What is the most common patient ethnicity in the database?",
-    "ground_truth": "The most common patient ethnicity is non-Hispanic with 92 patients.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"ethnicity\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"ethnicity\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 92,
-    "question": "What is the most common patient race in the database?",
-    "ground_truth": "The most common patient race is white with 97 patients.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT \"race\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"race\" ORDER BY cnt DESC LIMIT 1"
-  },
-  {
-    "id": 93,
-    "question": "How many care plans are recorded in the database?",
-    "ground_truth": "There are 351 care plans recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"careplans\""
-  },
-  {
-    "id": 94,
-    "question": "What is the average base cost of a medication?",
-    "ground_truth": "The average base cost of a medication is $82.29.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"medications\""
-  },
-  {
-    "id": 95,
-    "question": "How many distinct procedure descriptions are recorded in the database?",
-    "ground_truth": "There are 244 distinct procedure descriptions recorded in the database.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(DISTINCT \"description\") FROM \"procedures\""
-  },
-  {
-    "id": 96,
-    "question": "What are the top 5 providers by number of encounters?",
-    "ground_truth": "The top 5 providers by number of encounters are: Carisa395 Kutch271 (656), James276 Schmitt836 (634), Ted955 Reilly981 (207), Sharron285 Batz141 (160), and Latoyia537 Lindgren255 (144).",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT p.\"name\", COUNT(*) AS cnt FROM \"encounters\" e JOIN \"providers\" p ON e.\"provider\" = p.\"id\" GROUP BY p.\"name\" ORDER BY cnt DESC LIMIT 5"
-  },
-  {
-    "id": 97,
-    "question": "How many distinct patients have at least one recorded condition?",
-    "ground_truth": "All 111 distinct patients have at least one recorded condition.",
-    "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(DISTINCT \"patient\") FROM \"conditions\""
-  },
-  {
-    "id": 98,
+    "id": 76,
     "question": "What is the total payer coverage across all encounters?",
     "ground_truth": "The total payer coverage across all encounters is $12,775,322.50.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT ROUND(SUM(\"payer_coverage\")::numeric, 2) FROM \"encounters\""
   },
   {
-    "id": 99,
+    "id": 77,
+    "question": "How many conditions are recorded in the database?",
+    "ground_truth": "There are 3,817 conditions recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"conditions\""
+  },
+  {
+    "id": 78,
+    "question": "What is the most commonly recorded condition?",
+    "ground_truth": "The most commonly recorded condition is 'Medication review due (situation)' with 675 records.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"conditions\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 79,
+    "question": "How many medications are recorded in the database?",
+    "ground_truth": "There are 4,227 medications recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"medications\""
+  },
+  {
+    "id": 80,
+    "question": "How many active medications have no recorded stop date?",
+    "ground_truth": "There are 292 active medications with no recorded stop date.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"medications\" WHERE \"stop\" IS NULL"
+  },
+  {
+    "id": 81,
+    "question": "What is the most prescribed medication in the database?",
+    "ground_truth": "The most prescribed medication is '1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]' with 863 prescriptions.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"medications\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 82,
+    "question": "What is the average base cost of a medication?",
+    "ground_truth": "The average base cost of a medication is $82.29.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"medications\""
+  },
+  {
+    "id": 83,
+    "question": "How many procedures are recorded in the database?",
+    "ground_truth": "There are 17,034 procedures recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"procedures\""
+  },
+  {
+    "id": 84,
+    "question": "What is the most commonly performed procedure?",
+    "ground_truth": "The most commonly performed procedure is 'Depression screening (procedure)' with 1,656 records.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"procedures\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 85,
+    "question": "What is the average base cost of a procedure?",
+    "ground_truth": "The average base cost of a procedure is $996.75.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"procedures\""
+  },
+  {
+    "id": 86,
+    "question": "How many immunizations are recorded in the database?",
+    "ground_truth": "There are 1,565 immunizations recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"immunizations\""
+  },
+  {
+    "id": 87,
+    "question": "What is the most commonly administered immunization?",
+    "ground_truth": "The most commonly administered immunization is 'Influenza  split virus  trivalent  PF' with 867 administrations.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"immunizations\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 88,
+    "question": "How many allergy records are in the database?",
+    "ground_truth": "There are 79 allergy records in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"allergies\""
+  },
+  {
+    "id": 89,
+    "question": "What is the most common allergy category?",
+    "ground_truth": "The most common allergy category is 'environment' with 55 records.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"category\", COUNT(*) AS cnt FROM \"allergies\" GROUP BY \"category\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 90,
+    "question": "How many observations are recorded in the database?",
+    "ground_truth": "There are 72,372 observations recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"observations\""
+  },
+  {
+    "id": 91,
+    "question": "What is the most common observation category?",
+    "ground_truth": "The most common observation category is 'laboratory' with 30,858 records.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"category\", COUNT(*) AS cnt FROM \"observations\" WHERE \"category\" IS NOT NULL GROUP BY \"category\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 92,
+    "question": "How many care plans are recorded in the database?",
+    "ground_truth": "There are 351 care plans recorded in the database.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"careplans\""
+  },
+  {
+    "id": 93,
+    "question": "What is the most common care plan in the database?",
+    "ground_truth": "The most common care plan is 'Respiratory therapy (procedure)' with 57 records.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"careplans\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 94,
+    "question": "Which organization has handled the most patient encounters?",
+    "ground_truth": "LAWRENCE GENERAL HOSPITAL has handled the most patient encounters with 656.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT o.\"name\", COUNT(*) AS cnt FROM \"encounters\" e JOIN \"organizations\" o ON e.\"organization\" = o.\"id\" GROUP BY o.\"name\" ORDER BY cnt DESC LIMIT 1"
+  },
+  {
+    "id": 95,
+    "question": "How many encounters occurred in 2021?",
+    "ground_truth": "There are 499 encounters that occurred in 2021.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(*) FROM \"encounters\" WHERE EXTRACT(YEAR FROM \"start\") = 2021"
+  },
+  {
+    "id": 96,
     "question": "How many encounters occurred in 2020?",
     "ground_truth": "There are 365 encounters that occurred in 2020.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT COUNT(*) FROM \"encounters\" WHERE EXTRACT(YEAR FROM \"start\") = 2020"
   },
   {
-    "id": 100,
+    "id": 97,
     "question": "What is the average number of encounters per patient?",
     "ground_truth": "The average number of encounters per patient is 54.34.",
     "category": "STRUCTURED",
     "expected_sql": "SELECT ROUND(AVG(cnt)::numeric, 2) FROM (SELECT \"patient\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"patient\") sub"
+  },
+  {
+    "id": 98,
+    "question": "What are the top 3 most common encounter classes?",
+    "ground_truth": "The top 3 encounter classes are ambulatory (3,225), wellness (1,371), and outpatient (886).",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT \"encounterclass\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"encounterclass\" ORDER BY cnt DESC LIMIT 3"
+  },
+  {
+    "id": 99,
+    "question": "How many distinct patients have at least one recorded condition?",
+    "ground_truth": "All 111 distinct patients have at least one recorded condition.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT COUNT(DISTINCT \"patient\") FROM \"conditions\""
+  },
+  {
+    "id": 100,
+    "question": "What is the average base encounter cost?",
+    "ground_truth": "The average base encounter cost is $113.58.",
+    "category": "STRUCTURED",
+    "expected_sql": "SELECT ROUND(AVG(\"base_encounter_cost\")::numeric, 2) FROM \"encounters\""
   }
 ]
