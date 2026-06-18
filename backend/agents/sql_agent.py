@@ -93,9 +93,8 @@ def _generate_sql(schema: str, query: str) -> str:
         f"- Always SELECT all columns needed to fully answer the question. "
         f"For aggregation queries, include both the grouped column and the aggregate result column.\n"
         f"- Example of correct style:\n"
-        f'  SELECT "Genre"."Name", COUNT(*) FROM "Track"\n'
-        f'  JOIN "Genre" ON "Track"."GenreId" = "Genre"."GenreId"\n'
-        f'  GROUP BY "Genre"."Name" ORDER BY COUNT(*) DESC LIMIT 1\n'
+        f'  SELECT "description", COUNT(*) AS cnt FROM "conditions"\n'
+        f'  GROUP BY "description" ORDER BY cnt DESC LIMIT 5\n'
         f"Return only valid PostgreSQL SELECT SQL. "
         f"No markdown, no explanation, no ```sql fences."
     )

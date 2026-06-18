@@ -41,13 +41,13 @@ Strategy: KEYWORD
 Q: Where is the Louvre museum located?
 Strategy: KEYWORD
 
-Q: How many tracks are in the database?
+Q: How many patients are in the database?
 Strategy: STRUCTURED
 
-Q: What is the total revenue by genre?
+Q: What is the most common condition among patients?
 Strategy: STRUCTURED
 
-Q: Show the top 5 customers by total purchase amount?
+Q: What are the top 5 most prescribed medications?
 Strategy: STRUCTURED
 
 Now classify this query:

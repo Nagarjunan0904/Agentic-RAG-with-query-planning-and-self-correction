@@ -397,240 +397,240 @@
   },
   {
     "id": 67,
-    "question": "How many tracks are in the database?",
-    "ground_truth": "There are 3,503 tracks in the database.",
+    "question": "How many patients are in the database?",
+    "ground_truth": "There are 111 patients in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Track\""
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\""
   },
   {
     "id": 68,
-    "question": "Which genre has the most tracks in the database?",
-    "ground_truth": "Rock has the most tracks with 1,297 tracks.",
+    "question": "How many female patients are in the database?",
+    "ground_truth": "There are 62 female patients in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Genre\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" GROUP BY \"Genre\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"gender\" = 'F'"
   },
   {
     "id": 69,
-    "question": "How many artists are in the database?",
-    "ground_truth": "There are 275 artists in the database.",
+    "question": "How many male patients are in the database?",
+    "ground_truth": "There are 49 male patients in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Artist\""
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"gender\" = 'M'"
   },
   {
     "id": 70,
-    "question": "How many albums are in the database?",
-    "ground_truth": "There are 347 albums in the database.",
+    "question": "How many encounters are recorded in the database?",
+    "ground_truth": "There are 6,032 encounters recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Album\""
+    "expected_sql": "SELECT COUNT(*) FROM \"encounters\""
   },
   {
     "id": 71,
-    "question": "What is the total revenue from all invoices?",
-    "ground_truth": "The total revenue from all invoices is $2,328.60.",
+    "question": "What is the average total claim cost per encounter?",
+    "ground_truth": "The average total claim cost per encounter is $2,872.54.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(SUM(\"Total\")::numeric, 2) FROM \"Invoice\""
+    "expected_sql": "SELECT ROUND(AVG(\"total_claim_cost\")::numeric, 2) FROM \"encounters\""
   },
   {
     "id": 72,
-    "question": "What is the average invoice total?",
-    "ground_truth": "The average invoice total is $5.65.",
+    "question": "What is the most common encounter class in the database?",
+    "ground_truth": "The most common encounter class is ambulatory with 3,225 encounters.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(AVG(\"Total\")::numeric, 2) FROM \"Invoice\""
+    "expected_sql": "SELECT \"encounterclass\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"encounterclass\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 73,
-    "question": "Who are the top 5 customers by total spending?",
-    "ground_truth": "The top 5 customers by total spending are: Helena Holy ($49.62), Richard Cunningham ($47.62), Luis Rojas ($46.62), Hugh O'Reilly ($45.62), and Ladislav Kovacs ($45.62).",
+    "question": "How many conditions are recorded in the database?",
+    "ground_truth": "There are 3,817 conditions recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Customer\".\"FirstName\" || ' ' || \"Customer\".\"LastName\" AS name, ROUND(SUM(\"Invoice\".\"Total\")::numeric, 2) AS spent FROM \"Invoice\" JOIN \"Customer\" ON \"Invoice\".\"CustomerId\" = \"Customer\".\"CustomerId\" GROUP BY name ORDER BY spent DESC LIMIT 5"
+    "expected_sql": "SELECT COUNT(*) FROM \"conditions\""
   },
   {
     "id": 74,
-    "question": "Which artist has the most albums in the database?",
-    "ground_truth": "Iron Maiden has the most albums with 21 albums.",
+    "question": "What is the most common condition in the database?",
+    "ground_truth": "The most common condition is 'Medication review due (situation)' with 675 records.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Album\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"conditions\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 75,
-    "question": "What is the longest track in the database?",
-    "ground_truth": "The longest track is 'Occupation / Precipice' at 5,286,953 milliseconds (approximately 88 minutes).",
+    "question": "How many medications are recorded in the database?",
+    "ground_truth": "There are 4,227 medications recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Name\", \"Milliseconds\" FROM \"Track\" ORDER BY \"Milliseconds\" DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"medications\""
   },
   {
     "id": 76,
-    "question": "Which album has the most tracks?",
-    "ground_truth": "The album 'Greatest Hits' has the most tracks with 57 tracks.",
+    "question": "How many active medications have no recorded stop date?",
+    "ground_truth": "There are 292 active medications with no recorded stop date.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Album\".\"Title\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" GROUP BY \"Album\".\"Title\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"medications\" WHERE \"stop\" IS NULL"
   },
   {
     "id": 77,
-    "question": "How many distinct composers are represented in the database?",
-    "ground_truth": "There are 853 distinct composers in the database.",
+    "question": "How many procedures are recorded in the database?",
+    "ground_truth": "There are 17,034 procedures recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(DISTINCT \"Composer\") FROM \"Track\" WHERE \"Composer\" IS NOT NULL"
+    "expected_sql": "SELECT COUNT(*) FROM \"procedures\""
   },
   {
     "id": 78,
-    "question": "What is the average track length in milliseconds?",
-    "ground_truth": "The average track length is 393,599 milliseconds (approximately 6.6 minutes).",
+    "question": "What is the average base cost of a procedure?",
+    "ground_truth": "The average base cost of a procedure is $996.75.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(AVG(\"Milliseconds\")::numeric, 0) FROM \"Track\""
+    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"procedures\""
   },
   {
     "id": 79,
-    "question": "How many tracks are in the Rock genre?",
-    "ground_truth": "There are 1,297 tracks in the Rock genre.",
+    "question": "How many observations are recorded in the database?",
+    "ground_truth": "There are 72,372 observations recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Rock'"
+    "expected_sql": "SELECT COUNT(*) FROM \"observations\""
   },
   {
     "id": 80,
-    "question": "Which country generates the most revenue in the database?",
-    "ground_truth": "The USA generates the most revenue with $523.06.",
+    "question": "How many immunizations are recorded in the database?",
+    "ground_truth": "There are 1,565 immunizations recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"BillingCountry\", ROUND(SUM(\"Total\")::numeric, 2) AS rev FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY rev DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"immunizations\""
   },
   {
     "id": 81,
-    "question": "How many employees are in the database?",
-    "ground_truth": "There are 8 employees in the database.",
+    "question": "How many allergy records are in the database?",
+    "ground_truth": "There are 79 allergy records in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Employee\""
+    "expected_sql": "SELECT COUNT(*) FROM \"allergies\""
   },
   {
     "id": 82,
-    "question": "What are the top 5 countries by total invoice revenue?",
-    "ground_truth": "The top 5 countries by revenue are: USA ($523.06), Canada ($303.96), France ($195.10), Brazil ($190.10), and Germany ($156.48).",
+    "question": "How many organizations are in the database?",
+    "ground_truth": "There are 291 organizations in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"BillingCountry\", ROUND(SUM(\"Total\")::numeric, 2) AS rev FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY rev DESC LIMIT 5"
+    "expected_sql": "SELECT COUNT(*) FROM \"organizations\""
   },
   {
     "id": 83,
-    "question": "Which playlist has the most tracks?",
-    "ground_truth": "The 'Music' playlist has the most tracks with 6,580 tracks.",
+    "question": "How many providers are in the database?",
+    "ground_truth": "There are 291 providers in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Playlist\".\"Name\", COUNT(*) AS cnt FROM \"PlaylistTrack\" JOIN \"Playlist\" ON \"PlaylistTrack\".\"PlaylistId\" = \"Playlist\".\"PlaylistId\" GROUP BY \"Playlist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"providers\""
   },
   {
     "id": 84,
-    "question": "How many invoices were issued in 2021?",
-    "ground_truth": "83 invoices were issued in 2021.",
+    "question": "Which state has the most patients?",
+    "ground_truth": "Massachusetts has the most patients with 111 patients.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Invoice\" WHERE EXTRACT(YEAR FROM \"InvoiceDate\") = 2021"
+    "expected_sql": "SELECT \"state\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"state\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 85,
-    "question": "What is the most common media type for tracks in the database?",
-    "ground_truth": "MPEG audio file is the most common media type with 3,034 tracks.",
+    "question": "How many patients are currently alive with no recorded death date?",
+    "ground_truth": "There are 98 patients currently alive with no recorded death date.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"MediaType\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"MediaType\" ON \"Track\".\"MediaTypeId\" = \"MediaType\".\"MediaTypeId\" GROUP BY \"MediaType\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT COUNT(*) FROM \"patients\" WHERE \"deathdate\" IS NULL"
   },
   {
     "id": 86,
-    "question": "How many tracks are in the Jazz genre?",
-    "ground_truth": "There are 130 tracks in the Jazz genre.",
+    "question": "What are the top 5 most common conditions in the database?",
+    "ground_truth": "The top 5 most common conditions are: Medication review due (situation) (675), Stress (finding) (300), Gingivitis (disorder) (271), Full-time employment (finding) (258), and Part-time employment (finding) (156).",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Jazz'"
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"conditions\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 5"
   },
   {
     "id": 87,
-    "question": "Which artist has the most tracks in total across all albums?",
-    "ground_truth": "Iron Maiden has the most tracks with 213 tracks across all albums.",
+    "question": "What is the most common encounter description?",
+    "ground_truth": "The most common encounter description is 'Encounter for problem (procedure)' with 1,383 occurrences.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 1"
+    "expected_sql": "SELECT \"description\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"description\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 88,
-    "question": "What is the average number of line items per invoice?",
-    "ground_truth": "The average number of items per invoice is 5.44.",
+    "question": "How many distinct medication descriptions are there?",
+    "ground_truth": "There are 136 distinct medication descriptions in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(AVG(cnt)::numeric, 2) FROM (SELECT \"InvoiceId\", COUNT(*) AS cnt FROM \"InvoiceLine\" GROUP BY \"InvoiceId\") sub"
+    "expected_sql": "SELECT COUNT(DISTINCT \"description\") FROM \"medications\""
   },
   {
     "id": 89,
-    "question": "How many customers are in the database?",
-    "ground_truth": "There are 59 customers in the database.",
+    "question": "Which organization has handled the most patient encounters?",
+    "ground_truth": "LAWRENCE GENERAL HOSPITAL has handled the most patient encounters with 656 encounters.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Customer\""
+    "expected_sql": "SELECT o.\"name\", COUNT(*) AS cnt FROM \"encounters\" e JOIN \"organizations\" o ON e.\"organization\" = o.\"id\" GROUP BY o.\"name\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 90,
-    "question": "What is the maximum single invoice total?",
-    "ground_truth": "The maximum invoice total is $25.86.",
+    "question": "What is the average payer coverage per encounter?",
+    "ground_truth": "The average payer coverage per encounter is $2,117.92.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(MAX(\"Total\")::numeric, 2) FROM \"Invoice\""
+    "expected_sql": "SELECT ROUND(AVG(\"payer_coverage\")::numeric, 2) FROM \"encounters\""
   },
   {
     "id": 91,
-    "question": "How many tracks are in the Latin genre?",
-    "ground_truth": "There are 579 tracks in the Latin genre.",
+    "question": "What is the most common patient ethnicity in the database?",
+    "ground_truth": "The most common patient ethnicity is non-Hispanic with 92 patients.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Track\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" WHERE \"Genre\".\"Name\" = 'Latin'"
+    "expected_sql": "SELECT \"ethnicity\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"ethnicity\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 92,
-    "question": "What is the minimum invoice total in the database?",
-    "ground_truth": "The minimum invoice total is $0.99.",
+    "question": "What is the most common patient race in the database?",
+    "ground_truth": "The most common patient race is white with 97 patients.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(MIN(\"Total\")::numeric, 2) FROM \"Invoice\""
+    "expected_sql": "SELECT \"race\", COUNT(*) AS cnt FROM \"patients\" GROUP BY \"race\" ORDER BY cnt DESC LIMIT 1"
   },
   {
     "id": 93,
-    "question": "How many invoices were billed to customers in the USA?",
-    "ground_truth": "There are 91 invoices billed to customers in the USA.",
+    "question": "How many care plans are recorded in the database?",
+    "ground_truth": "There are 351 care plans recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Invoice\" WHERE \"BillingCountry\" = 'USA'"
+    "expected_sql": "SELECT COUNT(*) FROM \"careplans\""
   },
   {
     "id": 94,
-    "question": "Which genre generates the most revenue from track sales?",
-    "ground_truth": "Rock generates the most revenue with $826.65 from track sales.",
+    "question": "What is the average base cost of a medication?",
+    "ground_truth": "The average base cost of a medication is $82.29.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Genre\".\"Name\", ROUND(SUM(\"InvoiceLine\".\"UnitPrice\" * \"InvoiceLine\".\"Quantity\")::numeric, 2) AS rev FROM \"InvoiceLine\" JOIN \"Track\" ON \"InvoiceLine\".\"TrackId\" = \"Track\".\"TrackId\" JOIN \"Genre\" ON \"Track\".\"GenreId\" = \"Genre\".\"GenreId\" GROUP BY \"Genre\".\"Name\" ORDER BY rev DESC LIMIT 1"
+    "expected_sql": "SELECT ROUND(AVG(\"base_cost\")::numeric, 2) FROM \"medications\""
   },
   {
     "id": 95,
-    "question": "How many playlists are in the database?",
-    "ground_truth": "There are 18 playlists in the database.",
+    "question": "How many distinct procedure descriptions are recorded in the database?",
+    "ground_truth": "There are 244 distinct procedure descriptions recorded in the database.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Playlist\""
+    "expected_sql": "SELECT COUNT(DISTINCT \"description\") FROM \"procedures\""
   },
   {
     "id": 96,
-    "question": "What are the top 5 artists by total number of tracks?",
-    "ground_truth": "The top 5 artists by track count are: Iron Maiden (213), U2 (135), Led Zeppelin (114), Metallica (112), and Deep Purple (92).",
+    "question": "What are the top 5 providers by number of encounters?",
+    "ground_truth": "The top 5 providers by number of encounters are: Carisa395 Kutch271 (656), James276 Schmitt836 (634), Ted955 Reilly981 (207), Sharron285 Batz141 (160), and Latoyia537 Lindgren255 (144).",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"Artist\".\"Name\", COUNT(*) AS cnt FROM \"Track\" JOIN \"Album\" ON \"Track\".\"AlbumId\" = \"Album\".\"AlbumId\" JOIN \"Artist\" ON \"Album\".\"ArtistId\" = \"Artist\".\"ArtistId\" GROUP BY \"Artist\".\"Name\" ORDER BY cnt DESC LIMIT 5"
+    "expected_sql": "SELECT p.\"name\", COUNT(*) AS cnt FROM \"encounters\" e JOIN \"providers\" p ON e.\"provider\" = p.\"id\" GROUP BY p.\"name\" ORDER BY cnt DESC LIMIT 5"
   },
   {
     "id": 97,
-    "question": "How many genres are in the database?",
-    "ground_truth": "There are 25 genres in the database.",
+    "question": "How many distinct patients have at least one recorded condition?",
+    "ground_truth": "All 111 distinct patients have at least one recorded condition.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(*) FROM \"Genre\""
+    "expected_sql": "SELECT COUNT(DISTINCT \"patient\") FROM \"conditions\""
   },
   {
     "id": 98,
-    "question": "What is the total revenue from invoices billed to the USA?",
-    "ground_truth": "The total revenue from US invoices is $523.06.",
+    "question": "What is the total payer coverage across all encounters?",
+    "ground_truth": "The total payer coverage across all encounters is $12,775,322.50.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT ROUND(SUM(\"Total\")::numeric, 2) FROM \"Invoice\" WHERE \"BillingCountry\" = 'USA'"
+    "expected_sql": "SELECT ROUND(SUM(\"payer_coverage\")::numeric, 2) FROM \"encounters\""
   },
   {
     "id": 99,
-    "question": "How many different countries are customers from?",
-    "ground_truth": "Customers come from 24 different countries.",
+    "question": "How many encounters occurred in 2020?",
+    "ground_truth": "There are 365 encounters that occurred in 2020.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT COUNT(DISTINCT \"Country\") FROM \"Customer\""
+    "expected_sql": "SELECT COUNT(*) FROM \"encounters\" WHERE EXTRACT(YEAR FROM \"start\") = 2020"
   },
   {
     "id": 100,
-    "question": "What is the average invoice total for the top 5 countries by average spend?",
-    "ground_truth": "The top 5 countries by average invoice total are: Chile ($6.66), Ireland ($6.52), Hungary ($6.52), Czech Republic ($6.45), and Austria ($6.09).",
+    "question": "What is the average number of encounters per patient?",
+    "ground_truth": "The average number of encounters per patient is 54.34.",
     "category": "STRUCTURED",
-    "expected_sql": "SELECT \"BillingCountry\", ROUND(AVG(\"Total\")::numeric, 2) AS avg_total FROM \"Invoice\" GROUP BY \"BillingCountry\" ORDER BY avg_total DESC LIMIT 5"
+    "expected_sql": "SELECT ROUND(AVG(cnt)::numeric, 2) FROM (SELECT \"patient\", COUNT(*) AS cnt FROM \"encounters\" GROUP BY \"patient\") sub"
   }
 ]
