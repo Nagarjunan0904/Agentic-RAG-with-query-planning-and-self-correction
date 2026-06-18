@@ -82,7 +82,7 @@ def run(state: AgentState) -> AgentState:
     result = index.query(
         vector=query_vector,
         top_k=TOP_K,
-        filter={"source": "msmarco"},
+        filter={"source": "medquad"},
         include_metadata=True,
     )
 
@@ -95,7 +95,7 @@ def run(state: AgentState) -> AgentState:
                 "",
             ),
             "score":    float(m.score),
-            "source":   "msmarco",
+            "source":   "medquad",
             "chunk_id": m.id,
         }
         for m in result.matches
