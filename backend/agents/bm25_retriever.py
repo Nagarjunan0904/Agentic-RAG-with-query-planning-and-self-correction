@@ -13,7 +13,7 @@ load_dotenv(override=True)
 # numbers — where dense vectors underperform.
 
 ELASTICSEARCH_URL = os.environ.get("ELASTICSEARCH_URL", "http://localhost:9200")
-INDEX = "wikipedia"
+INDEX = "medical_topics"
 TOP_K = 10
 
 log = logging.getLogger(__name__)
@@ -39,7 +39,7 @@ def run(state: AgentState) -> AgentState:
         query={
             "multi_match": {
                 "query": query,
-                "fields": ["title^2", "body"],
+                "fields": ["title^2", "synonyms^1.5", "body"],
             }
         },
         size=TOP_K,
@@ -50,7 +50,7 @@ def run(state: AgentState) -> AgentState:
         {
             "text":     hit["_source"].get("body", ""),
             "score":    float(hit["_score"]),
-            "source":   "wikipedia",
+            "source":   "medlineplus",
             "chunk_id": hit["_id"],
         }
         for hit in hits

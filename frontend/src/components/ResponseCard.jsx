@@ -9,7 +9,7 @@ const STRATEGY_CONFIG = {
 
 const SOURCE_CONFIG = {
   medquad:   { color: '#6366F1', bg: 'rgba(99,102,241,0.12)',  border: 'rgba(99,102,241,0.25)'  },
-  wikipedia: { color: '#A855F7', bg: 'rgba(168,85,247,0.12)',  border: 'rgba(168,85,247,0.25)'  },
+  medlineplus: { color: '#A855F7', bg: 'rgba(168,85,247,0.12)',  border: 'rgba(168,85,247,0.25)'  },
   sql:       { color: '#F59E0B', bg: 'rgba(245,158,11,0.12)',   border: 'rgba(245,158,11,0.25)'  },
 }
 
