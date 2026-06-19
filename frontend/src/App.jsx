@@ -38,9 +38,9 @@ export default function App() {
             ⚡
           </div>
           <div>
-            <h1 className="text-sm font-bold text-white leading-none">Agentic RAG</h1>
+            <h1 className="text-sm font-bold text-white leading-none">Agentic Healthcare RAG</h1>
             <p className="text-xs mt-0.5" style={{ color: '#9CA3AF' }}>
-              Query planning · Self-correction · Three retrieval strategies
+              Clinical query planning · Self-correction · Three retrieval strategies
             </p>
           </div>
         </div>

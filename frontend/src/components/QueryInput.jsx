@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
 const EXAMPLES = [
-  { label: 'What is the difference between RAG and fine-tuning?',      type: 'SEMANTIC' },
-  { label: 'How does HNSW indexing work for nearest neighbor search?', type: 'SEMANTIC' },
-  { label: 'Who founded Pinecone and when was it established?',         type: 'KEYWORD' },
-  { label: 'What is Cohere Rerank and which company builds it?',        type: 'KEYWORD' },
-  { label: 'Which music genre has the most tracks in the database?',    type: 'STRUCTURED' },
-  { label: 'What is the average invoice total by country?',             type: 'STRUCTURED' },
+  { label: 'What are the symptoms of type 2 diabetes?',         type: 'SEMANTIC'    },
+  { label: "How is Alzheimer's disease treated?",               type: 'SEMANTIC'    },
+  { label: 'What is hypertension?',                             type: 'KEYWORD'     },
+  { label: 'Find information on asthma',                        type: 'KEYWORD'     },
+  { label: 'What is the most common condition among patients?', type: 'STRUCTURED'  },
+  { label: 'What is the most prescribed medication?',           type: 'STRUCTURED'  },
 ]
 
 const GROUPS = [
@@ -80,6 +80,11 @@ export default function QueryInput({ onSubmit, loading }) {
           </div>
         ))}
       </div>
+
+      {/* Calibration note */}
+      <p className="text-[11px] text-center" style={{ color: '#4B5563' }}>
+        Grounded in NIH medical literature (MedQuAD + MedlinePlus) and synthetic patient records (Synthea)
+      </p>
 
       {/* Textarea + button */}
       <div className="flex gap-3">
