@@ -1,62 +1,62 @@
 {
   "per_metric": {
-    "faithfulness": 0.7091,
-    "answer_relevancy": 0.574,
-    "context_recall": 0.4114,
-    "context_precision": 0.4649
+    "faithfulness": 0.6896,
+    "answer_relevancy": 0.8601,
+    "context_recall": 0.6484,
+    "context_precision": 0.875
   },
   "per_question": [
     {
       "id": 1,
       "category": "SEMANTIC",
-      "question": "How does the immune system fight infections?",
+      "question": "What are the symptoms of type 2 diabetes?",
       "scores": {
-        "faithfulness": 0.8,
+        "faithfulness": 0.9167,
         "answer_relevancy": 0.9999,
-        "context_recall": 0.4286,
-        "context_precision": 0.5
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 2,
       "category": "SEMANTIC",
-      "question": "What causes earthquakes?",
+      "question": "How is asthma treated?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.9997,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8222,
         "context_recall": 0.5,
-        "context_precision": 1.0
+        "context_precision": 0.3333
       }
     },
     {
       "id": 3,
       "category": "SEMANTIC",
-      "question": "How do airplanes generate lift?",
+      "question": "What causes Alzheimer's disease?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.9998,
-        "context_recall": 0.5,
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.9582,
+        "context_recall": 0.4286,
         "context_precision": 1.0
       }
     },
     {
       "id": 4,
       "category": "SEMANTIC",
-      "question": "What is photosynthesis and how does it work?",
+      "question": "What are the risk factors for coronary heart disease?",
       "scores": {
-        "faithfulness": 0.8,
-        "answer_relevancy": 0.9999,
-        "context_recall": 0.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9512,
+        "context_recall": 1.0,
         "context_precision": 1.0
       }
     },
     {
       "id": 5,
       "category": "SEMANTIC",
-      "question": "How does a combustion engine work?",
+      "question": "How is high blood pressure diagnosed?",
       "scores": {
-        "faithfulness": 0.9333,
-        "answer_relevancy": 0.9051,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
         "context_recall": 0.0,
         "context_precision": 0.0
       }
@@ -64,9 +64,9 @@
     {
       "id": 6,
       "category": "SEMANTIC",
-      "question": "What is the water cycle and how does it work?",
+      "question": "What are the early symptoms of HIV infection?",
       "scores": {
-        "faithfulness": 0.8,
+        "faithfulness": 1.0,
         "answer_relevancy": 0.0,
         "context_recall": 0.0,
         "context_precision": 0.0
@@ -75,120 +75,120 @@
     {
       "id": 7,
       "category": "SEMANTIC",
-      "question": "How do vaccines work?",
+      "question": "How does rheumatoid arthritis differ from osteoarthritis?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.9251,
-        "context_recall": 0.25,
-        "context_precision": 0.3333
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.9747,
+        "context_recall": 0.6,
+        "context_precision": 1.0
       }
     },
     {
       "id": 8,
       "category": "SEMANTIC",
-      "question": "What causes the seasons on Earth?",
+      "question": "What medications are used to treat depression?",
       "scores": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9998,
-        "context_recall": 0.75,
+        "context_recall": 0.6667,
         "context_precision": 1.0
       }
     },
     {
       "id": 9,
       "category": "SEMANTIC",
-      "question": "How is steel made?",
+      "question": "What are the warning signs of a stroke?",
       "scores": {
-        "faithfulness": 0.8571,
-        "answer_relevancy": 0.814,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_recall": 0.6667,
+        "context_precision": 1.0
       }
     },
     {
       "id": 10,
       "category": "SEMANTIC",
-      "question": "What is the difference between bacteria and viruses?",
+      "question": "How is breast cancer detected?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.8765,
-        "context_recall": 0.0,
+        "answer_relevancy": 0.7888,
+        "context_recall": 0.25,
         "context_precision": 0.0
       }
     },
     {
       "id": 11,
       "category": "SEMANTIC",
-      "question": "How does the human digestive system work?",
+      "question": "What causes chronic kidney disease?",
       "scores": {
-        "faithfulness": 0.9375,
-        "answer_relevancy": 0.8817,
-        "context_recall": 0.2,
-        "context_precision": 0.3333
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8852,
+        "context_recall": 0.6667,
+        "context_precision": 1.0
       }
     },
     {
       "id": 12,
       "category": "SEMANTIC",
-      "question": "What causes lightning and thunder?",
+      "question": "How does insulin work in diabetes management?",
       "scores": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "context_recall": 0.25,
+        "context_precision": 1.0
       }
     },
     {
       "id": 13,
       "category": "SEMANTIC",
-      "question": "How do solar panels generate electricity?",
+      "question": "What are the treatments for Parkinson's disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.9614,
+        "context_recall": 0.75,
+        "context_precision": 0.5
       }
     },
     {
       "id": 14,
       "category": "SEMANTIC",
-      "question": "What is DNA and how does it store genetic information?",
+      "question": "What are the symptoms of multiple sclerosis?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.4,
-        "context_precision": 0.0
+        "faithfulness": null,
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.6667,
+        "context_precision": 1.0
       }
     },
     {
       "id": 15,
       "category": "SEMANTIC",
-      "question": "How do muscles contract and generate force?",
+      "question": "How is epilepsy managed?",
       "scores": {
-        "faithfulness": null,
-        "answer_relevancy": 0.9999,
-        "context_recall": 0.25,
-        "context_precision": 0.3333
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8345,
+        "context_recall": 0.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 16,
       "category": "SEMANTIC",
-      "question": "What causes a rainbow to form?",
+      "question": "What causes sickle cell disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8935,
+        "context_recall": 0.25,
+        "context_precision": 0.8333
       }
     },
     {
       "id": 17,
       "category": "SEMANTIC",
-      "question": "How does the internet work?",
+      "question": "How is cystic fibrosis treated?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8352,
         "context_recall": 0.0,
         "context_precision": 0.0
       }
@@ -196,505 +196,505 @@
     {
       "id": 18,
       "category": "SEMANTIC",
-      "question": "What is climate change and what causes it?",
+      "question": "What are the symptoms of Crohn's disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9789,
-        "context_recall": 0.25,
-        "context_precision": 0.0
+        "answer_relevancy": 0.9528,
+        "context_recall": 0.3333,
+        "context_precision": 0.5833
       }
     },
     {
       "id": 19,
       "category": "SEMANTIC",
-      "question": "How do plants absorb water and nutrients from the soil?",
+      "question": "How is systemic lupus erythematosus diagnosed?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.8996,
+        "faithfulness": 0.875,
+        "answer_relevancy": 0.0,
         "context_recall": 0.0,
-        "context_precision": 1.0
+        "context_precision": 0.0
       }
     },
     {
       "id": 20,
       "category": "SEMANTIC",
-      "question": "What is the difference between weather and climate?",
+      "question": "What are the main types of skin cancer?",
       "scores": {
-        "faithfulness": 0.875,
-        "answer_relevancy": 0.9999,
-        "context_recall": 0.25,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9023,
+        "context_recall": 0.6667,
         "context_precision": 1.0
       }
     },
     {
       "id": 21,
       "category": "SEMANTIC",
-      "question": "How does the heart pump blood through the body?",
+      "question": "How does high cholesterol affect cardiovascular health?",
       "scores": {
-        "faithfulness": 0.8,
-        "answer_relevancy": 0.9999,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9998,
         "context_recall": 0.5,
-        "context_precision": 0.8333
+        "context_precision": 1.0
       }
     },
     {
       "id": 22,
       "category": "SEMANTIC",
-      "question": "What causes ocean tides?",
+      "question": "How is hypothyroidism treated?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8857,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 23,
       "category": "SEMANTIC",
-      "question": "How is glass made?",
+      "question": "What triggers migraines?",
       "scores": {
-        "faithfulness": 0.8,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8937,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 24,
       "category": "SEMANTIC",
-      "question": "What is the greenhouse effect?",
+      "question": "How can osteoporosis be prevented?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9005,
-        "context_recall": 0.75,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.6667,
         "context_precision": 1.0
       }
     },
     {
       "id": 25,
       "category": "SEMANTIC",
-      "question": "How do antibiotics work?",
+      "question": "What are the symptoms of COPD?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.8995,
-        "context_recall": 0.4,
-        "context_precision": 1.0
+        "answer_relevancy": 0.9383,
+        "context_recall": 0.0,
+        "context_precision": 0.8333
       }
     },
     {
       "id": 26,
       "category": "SEMANTIC",
-      "question": "What causes tooth decay?",
+      "question": "How is colorectal cancer screened?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.886,
-        "context_recall": 0.25,
+        "faithfulness": 0.9412,
+        "answer_relevancy": 0.8113,
+        "context_recall": 0.1429,
         "context_precision": 0.0
       }
     },
     {
       "id": 27,
       "category": "SEMANTIC",
-      "question": "What is the difference between aerobic and anaerobic exercise?",
+      "question": "What are the risk factors for stroke?",
       "scores": {
-        "faithfulness": 0.875,
-        "answer_relevancy": 0.7716,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 0.7,
+        "context_precision": 1.0
       }
     },
     {
       "id": 28,
       "category": "SEMANTIC",
-      "question": "How do the kidneys filter blood?",
+      "question": "How is glaucoma treated?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 0.7222,
+        "answer_relevancy": 0.8743,
+        "context_recall": 0.25,
+        "context_precision": 0.5833
       }
     },
     {
       "id": 29,
       "category": "SEMANTIC",
-      "question": "What causes allergies?",
+      "question": "What is the difference between Type 1 and Type 2 diabetes?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9597,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.9744,
+        "context_recall": 0.75,
+        "context_precision": 0.5
       }
     },
     {
       "id": 30,
       "category": "SEMANTIC",
-      "question": "How do magnets work?",
+      "question": "What are the symptoms of congestive heart failure?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8849,
+        "context_recall": 0.625,
+        "context_precision": 1.0
       }
     },
     {
       "id": 31,
       "category": "SEMANTIC",
-      "question": "What is the difference between renewable and non-renewable energy?",
+      "question": "How is childhood asthma managed?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.9999,
+        "context_recall": 0.4286,
+        "context_precision": 0.5833
       }
     },
     {
       "id": 32,
       "category": "SEMANTIC",
-      "question": "How does fermentation work in food production?",
+      "question": "What causes celiac disease?",
       "scores": {
-        "faithfulness": 0.7778,
-        "answer_relevancy": 0.9997,
-        "context_recall": 0.25,
-        "context_precision": 0.0
+        "faithfulness": 0.9545,
+        "answer_relevancy": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 33,
       "category": "SEMANTIC",
-      "question": "How does the human brain form and store memories?",
+      "question": "How does clinical depression differ from normal sadness or grief?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 0.2,
+        "answer_relevancy": 0.9671,
+        "context_recall": 0.5,
         "context_precision": 1.0
       }
     },
     {
       "id": 34,
       "category": "KEYWORD",
-      "question": "Who wrote Romeo and Juliet?",
+      "question": "What is A1C?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.5
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7941,
+        "context_recall": 0.8,
+        "context_precision": 1.0
       }
     },
     {
       "id": 35,
       "category": "KEYWORD",
-      "question": "When did World War II end?",
+      "question": "What is hypertension?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 0.25,
+        "answer_relevancy": 0.8468,
+        "context_recall": 0.5,
+        "context_precision": 0.5833
       }
     },
     {
       "id": 36,
       "category": "KEYWORD",
-      "question": "What is the capital of France?",
+      "question": "What is asthma?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8401,
+        "context_recall": 0.6667,
+        "context_precision": 1.0
       }
     },
     {
       "id": 37,
       "category": "KEYWORD",
-      "question": "Who invented the telephone?",
+      "question": "What is type 2 diabetes?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.7783,
-        "context_recall": 1.0,
+        "answer_relevancy": 0.8795,
+        "context_recall": 0.75,
         "context_precision": 1.0
       }
     },
     {
       "id": 38,
       "category": "KEYWORD",
-      "question": "Which country has the largest population in the world?",
+      "question": "What is coronary artery disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 1.0,
+        "answer_relevancy": 0.9121,
         "context_recall": 0.3333,
-        "context_precision": 0.0
+        "context_precision": 1.0
       }
     },
     {
       "id": 39,
       "category": "KEYWORD",
-      "question": "Who painted the Mona Lisa?",
+      "question": "What is breast cancer?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8491,
+        "context_recall": 0.25,
+        "context_precision": 1.0
       }
     },
     {
       "id": 40,
       "category": "KEYWORD",
-      "question": "What is the tallest mountain in the world?",
+      "question": "What is HIV?",
       "scores": {
-        "faithfulness": 0.8889,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7189,
+        "context_recall": 0.75,
+        "context_precision": 1.0
       }
     },
     {
       "id": 41,
       "category": "KEYWORD",
-      "question": "Who was the first person to walk on the Moon?",
+      "question": "What is depression?",
       "scores": {
-        "faithfulness": 0.75,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8012,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 42,
       "category": "KEYWORD",
-      "question": "What language is spoken in Brazil?",
+      "question": "What is rheumatoid arthritis?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9014,
-        "context_recall": 0.75,
-        "context_precision": 0.5
+        "answer_relevancy": 0.8634,
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 43,
       "category": "KEYWORD",
-      "question": "Who discovered penicillin?",
+      "question": "What is Alzheimer's disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9724,
-        "context_recall": 1.0,
-        "context_precision": 0.8333
+        "answer_relevancy": 0.8669,
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 44,
       "category": "KEYWORD",
-      "question": "What is the capital of Australia?",
+      "question": "What is COPD?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.929,
-        "context_recall": 0.4,
+        "answer_relevancy": 0.8277,
+        "context_recall": 0.75,
         "context_precision": 1.0
       }
     },
     {
       "id": 45,
       "category": "KEYWORD",
-      "question": "When was the Eiffel Tower built?",
+      "question": "What is chronic kidney disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8798,
+        "context_recall": 0.6667,
+        "context_precision": 1.0
       }
     },
     {
       "id": 46,
       "category": "KEYWORD",
-      "question": "Who wrote the play Hamlet?",
+      "question": "What is obesity?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8313,
+        "context_recall": 0.25,
+        "context_precision": 1.0
       }
     },
     {
       "id": 47,
       "category": "KEYWORD",
-      "question": "What is the largest ocean on Earth?",
+      "question": "What is influenza?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.7897,
+        "context_recall": 0.3333,
+        "context_precision": 0.8333
       }
     },
     {
       "id": 48,
       "category": "KEYWORD",
-      "question": "Who was Napoleon Bonaparte?",
+      "question": "What is hypothyroidism?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.7917,
-        "context_recall": 0.0,
-        "context_precision": 1.0
+        "answer_relevancy": 0.8015,
+        "context_recall": 0.3333,
+        "context_precision": 0.5
       }
     },
     {
       "id": 49,
       "category": "KEYWORD",
-      "question": "When did the French Revolution begin?",
+      "question": "What is osteoporosis?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": null,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8751,
+        "context_recall": 0.75,
+        "context_precision": 0.5
       }
     },
     {
       "id": 50,
       "category": "KEYWORD",
-      "question": "What is the capital of Japan?",
+      "question": "What is colorectal cancer?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8388,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 51,
       "category": "KEYWORD",
-      "question": "Who invented the light bulb?",
+      "question": "What is Parkinson's disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8314,
+        "context_recall": 0.75,
+        "context_precision": 1.0
       }
     },
     {
       "id": 52,
       "category": "KEYWORD",
-      "question": "Which is the longest river in the world?",
+      "question": "What is lupus?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.836,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 53,
       "category": "KEYWORD",
-      "question": "When was the United Nations founded?",
+      "question": "What is multiple sclerosis?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.852,
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 54,
       "category": "KEYWORD",
-      "question": "Who wrote A Tale of Two Cities?",
+      "question": "What is epilepsy?",
       "scores": {
-        "faithfulness": 0.3333,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8784,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 55,
       "category": "KEYWORD",
-      "question": "What is the largest desert in the world?",
+      "question": "What is sickle cell disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8462,
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 56,
       "category": "KEYWORD",
-      "question": "Who developed the theory of relativity?",
+      "question": "What is cystic fibrosis?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
+        "faithfulness": null,
+        "answer_relevancy": 0.8362,
         "context_recall": 0.0,
-        "context_precision": 0.0
+        "context_precision": 1.0
       }
     },
     {
       "id": 57,
       "category": "KEYWORD",
-      "question": "What is the capital of Canada?",
+      "question": "What is Crohn's disease?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8069,
+        "context_recall": 0.3333,
+        "context_precision": 1.0
       }
     },
     {
       "id": 58,
       "category": "KEYWORD",
-      "question": "When did the American Civil War end?",
+      "question": "What is glaucoma?",
       "scores": {
-        "faithfulness": null,
-        "answer_relevancy": 0.0,
-        "context_recall": 1.0,
-        "context_precision": null
+        "faithfulness": 0.8333,
+        "answer_relevancy": 0.8352,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 59,
       "category": "KEYWORD",
-      "question": "Who was the first President of the United States?",
+      "question": "What is a migraine?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9996,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8596,
+        "context_recall": 0.6,
+        "context_precision": 1.0
       }
     },
     {
       "id": 60,
       "category": "KEYWORD",
-      "question": "What is the smallest country in the world?",
+      "question": "What is high blood pressure?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.8781,
-        "context_recall": 0.1667,
+        "answer_relevancy": 0.8739,
+        "context_recall": 0.4,
         "context_precision": 1.0
       }
     },
     {
       "id": 61,
       "category": "KEYWORD",
-      "question": "Who invented the printing press?",
+      "question": "What is high cholesterol?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
+        "answer_relevancy": 0.8536,
         "context_recall": 0.0,
-        "context_precision": 0.0
+        "context_precision": 0.5
       }
     },
     {
       "id": 62,
       "category": "KEYWORD",
-      "question": "What is the capital of Russia?",
+      "question": "What is melanoma?",
       "scores": {
-        "faithfulness": null,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7696,
+        "context_recall": 0.25,
+        "context_precision": 1.0
       }
     },
     {
       "id": 63,
       "category": "KEYWORD",
-      "question": "When was the Berlin Wall torn down?",
+      "question": "What is pneumonia?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.9084,
+        "answer_relevancy": 0.8698,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -702,43 +702,43 @@
     {
       "id": 64,
       "category": "KEYWORD",
-      "question": "Who wrote Pride and Prejudice?",
+      "question": "What is insomnia?",
       "scores": {
         "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "answer_relevancy": 0.8622,
+        "context_recall": 0.2,
+        "context_precision": 1.0
       }
     },
     {
       "id": 65,
       "category": "KEYWORD",
-      "question": "What is the highest waterfall in the world?",
+      "question": "What is anemia?",
       "scores": {
-        "faithfulness": 0.8,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8062,
+        "context_recall": 0.5,
+        "context_precision": 1.0
       }
     },
     {
       "id": 66,
       "category": "KEYWORD",
-      "question": "Which planet is closest to the Sun?",
+      "question": "What is an anxiety disorder?",
       "scores": {
-        "faithfulness": 0.8333,
-        "answer_relevancy": 0.0,
-        "context_recall": null,
-        "context_precision": null
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8461,
+        "context_recall": 0.25,
+        "context_precision": 0.8333
       }
     },
     {
       "id": 67,
       "category": "STRUCTURED",
-      "question": "How many tracks are in the database?",
+      "question": "How many patients are in the database?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
+        "answer_relevancy": 1.0,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -746,10 +746,10 @@
     {
       "id": 68,
       "category": "STRUCTURED",
-      "question": "Which genre has the most tracks in the database?",
+      "question": "How many patients are currently alive with no recorded death date?",
       "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.982,
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8825,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -757,43 +757,43 @@
     {
       "id": 69,
       "category": "STRUCTURED",
-      "question": "How many artists are in the database?",
+      "question": "How many patients are deceased?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": null,
-        "context_recall": null,
-        "context_precision": null
+        "answer_relevancy": 0.8459,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 70,
       "category": "STRUCTURED",
-      "question": "How many albums are in the database?",
+      "question": "How many total encounters are recorded in the database?",
       "scores": {
-        "faithfulness": null,
-        "answer_relevancy": null,
-        "context_recall": null,
-        "context_precision": null
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9891,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 71,
       "category": "STRUCTURED",
-      "question": "What is the total revenue from all invoices?",
+      "question": "What is the most common encounter class in the database?",
       "scores": {
-        "faithfulness": null,
-        "answer_relevancy": null,
-        "context_recall": null,
-        "context_precision": null
+        "faithfulness": 0.5,
+        "answer_relevancy": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 72,
       "category": "STRUCTURED",
-      "question": "What is the average invoice total?",
+      "question": "How many emergency encounters are recorded in the database?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": null,
+        "answer_relevancy": 0.9998,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -801,51 +801,7 @@
     {
       "id": 73,
       "category": "STRUCTURED",
-      "question": "Who are the top 5 customers by total spending?",
-      "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.6,
-        "context_precision": 0.0
-      }
-    },
-    {
-      "id": 74,
-      "category": "STRUCTURED",
-      "question": "Which artist has the most albums in the database?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.8996,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 75,
-      "category": "STRUCTURED",
-      "question": "What is the longest track in the database?",
-      "scores": {
-        "faithfulness": 0.6667,
-        "answer_relevancy": 0.986,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 76,
-      "category": "STRUCTURED",
-      "question": "Which album has the most tracks?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.9693,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 77,
-      "category": "STRUCTURED",
-      "question": "How many distinct composers are represented in the database?",
+      "question": "How many inpatient encounters are recorded in the database?",
       "scores": {
         "faithfulness": 0.0,
         "answer_relevancy": 0.9999,
@@ -854,20 +810,64 @@
       }
     },
     {
+      "id": 74,
+      "category": "STRUCTURED",
+      "question": "What is the average total claim cost per encounter?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9997,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 75,
+      "category": "STRUCTURED",
+      "question": "What is the average payer coverage per encounter?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8692,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 76,
+      "category": "STRUCTURED",
+      "question": "What is the total payer coverage across all encounters?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9997,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 77,
+      "category": "STRUCTURED",
+      "question": "How many conditions are recorded in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8596,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
       "id": 78,
       "category": "STRUCTURED",
-      "question": "What is the average track length in milliseconds?",
+      "question": "What is the most commonly recorded condition?",
       "scores": {
-        "faithfulness": 0.6667,
-        "answer_relevancy": 0.8723,
-        "context_recall": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9403,
+        "context_recall": 1.0,
         "context_precision": 1.0
       }
     },
     {
       "id": 79,
       "category": "STRUCTURED",
-      "question": "How many tracks are in the Rock genre?",
+      "question": "How many medications are recorded in the database?",
       "scores": {
         "faithfulness": 0.0,
         "answer_relevancy": 0.9999,
@@ -878,10 +878,10 @@
     {
       "id": 80,
       "category": "STRUCTURED",
-      "question": "Which country generates the most revenue in the database?",
+      "question": "How many active medications have no recorded stop date?",
       "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.9927,
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9765,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -889,10 +889,10 @@
     {
       "id": 81,
       "category": "STRUCTURED",
-      "question": "How many employees are in the database?",
+      "question": "What is the most prescribed medication in the database?",
       "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.8839,
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9453,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -900,150 +900,7 @@
     {
       "id": 82,
       "category": "STRUCTURED",
-      "question": "What are the top 5 countries by total invoice revenue?",
-      "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.6,
-        "context_precision": 0.0
-      }
-    },
-    {
-      "id": 83,
-      "category": "STRUCTURED",
-      "question": "Which playlist has the most tracks?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.9715,
-        "context_recall": 0.0,
-        "context_precision": 0.0
-      }
-    },
-    {
-      "id": 84,
-      "category": "STRUCTURED",
-      "question": "How many invoices were issued in 2021?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 85,
-      "category": "STRUCTURED",
-      "question": "What is the most common media type for tracks in the database?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 86,
-      "category": "STRUCTURED",
-      "question": "How many tracks are in the Jazz genre?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9952,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 87,
-      "category": "STRUCTURED",
-      "question": "Which artist has the most tracks in total across all albums?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.8912,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 88,
-      "category": "STRUCTURED",
-      "question": "What is the average number of line items per invoice?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 89,
-      "category": "STRUCTURED",
-      "question": "How many customers are in the database?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 90,
-      "category": "STRUCTURED",
-      "question": "What is the maximum single invoice total?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 91,
-      "category": "STRUCTURED",
-      "question": "How many tracks are in the Latin genre?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 92,
-      "category": "STRUCTURED",
-      "question": "What is the minimum invoice total in the database?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 93,
-      "category": "STRUCTURED",
-      "question": "How many invoices were billed to customers in the USA?",
-      "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 94,
-      "category": "STRUCTURED",
-      "question": "Which genre generates the most revenue from track sales?",
-      "scores": {
-        "faithfulness": 0.5,
-        "answer_relevancy": 0.9737,
-        "context_recall": 1.0,
-        "context_precision": 1.0
-      }
-    },
-    {
-      "id": 95,
-      "category": "STRUCTURED",
-      "question": "How many playlists are in the database?",
+      "question": "What is the average base cost of a medication?",
       "scores": {
         "faithfulness": 0.0,
         "answer_relevancy": 0.9998,
@@ -1052,23 +909,166 @@
       }
     },
     {
+      "id": 83,
+      "category": "STRUCTURED",
+      "question": "How many procedures are recorded in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 84,
+      "category": "STRUCTURED",
+      "question": "What is the most commonly performed procedure?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.8922,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 85,
+      "category": "STRUCTURED",
+      "question": "What is the average base cost of a procedure?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9661,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 86,
+      "category": "STRUCTURED",
+      "question": "How many immunizations are recorded in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9999,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 87,
+      "category": "STRUCTURED",
+      "question": "What is the most commonly administered immunization?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9019,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 88,
+      "category": "STRUCTURED",
+      "question": "How many allergy records are in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 89,
+      "category": "STRUCTURED",
+      "question": "What is the most common allergy category?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9282,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 90,
+      "category": "STRUCTURED",
+      "question": "How many observations are recorded in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8881,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 91,
+      "category": "STRUCTURED",
+      "question": "What is the most common observation category?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.8447,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 92,
+      "category": "STRUCTURED",
+      "question": "How many care plans are recorded in the database?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9998,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 93,
+      "category": "STRUCTURED",
+      "question": "What is the most common care plan in the database?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9998,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 94,
+      "category": "STRUCTURED",
+      "question": "Which organization has handled the most patient encounters?",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.9088,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": 95,
+      "category": "STRUCTURED",
+      "question": "How many encounters occurred in 2021?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8918,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
       "id": 96,
       "category": "STRUCTURED",
-      "question": "What are the top 5 artists by total number of tracks?",
+      "question": "How many encounters occurred in 2020?",
       "scores": {
-        "faithfulness": 1.0,
-        "answer_relevancy": 0.0,
-        "context_recall": 0.6,
-        "context_precision": 0.0
+        "faithfulness": 0.0,
+        "answer_relevancy": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     },
     {
       "id": 97,
       "category": "STRUCTURED",
-      "question": "How many genres are in the database?",
+      "question": "What is the average number of encounters per patient?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
+        "answer_relevancy": 1.0,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -1076,21 +1076,21 @@
     {
       "id": 98,
       "category": "STRUCTURED",
-      "question": "What is the total revenue from invoices billed to the USA?",
+      "question": "What are the top 3 most common encounter classes?",
       "scores": {
-        "faithfulness": 0.0,
-        "answer_relevancy": 0.9999,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9646,
         "context_recall": 1.0,
-        "context_precision": 1.0
+        "context_precision": 0.0
       }
     },
     {
       "id": 99,
       "category": "STRUCTURED",
-      "question": "How many different countries are customers from?",
+      "question": "How many distinct patients have at least one recorded condition?",
       "scores": {
         "faithfulness": 0.0,
-        "answer_relevancy": 0.8336,
+        "answer_relevancy": 0.8476,
         "context_recall": 1.0,
         "context_precision": 1.0
       }
@@ -1098,33 +1098,33 @@
     {
       "id": 100,
       "category": "STRUCTURED",
-      "question": "What is the average invoice total for the top 5 countries by average spend?",
+      "question": "What is the average base encounter cost?",
       "scores": {
         "faithfulness": 0.0,
         "answer_relevancy": 0.9999,
-        "context_recall": 0.0,
-        "context_precision": 0.0
+        "context_recall": 1.0,
+        "context_precision": 1.0
       }
     }
   ],
   "category_breakdown": {
     "SEMANTIC": {
-      "faithfulness": 0.9247,
-      "answer_relevancy": 0.6272,
-      "context_recall": 0.1857,
-      "context_precision": 0.3434
+      "faithfulness": 0.9685,
+      "answer_relevancy": 0.7875,
+      "context_recall": 0.4573,
+      "context_precision": 0.7197
     },
     "KEYWORD": {
-      "faithfulness": 0.9496,
-      "answer_relevancy": 0.2472,
-      "context_recall": 0.1823,
-      "context_precision": 0.2204
+      "faithfulness": 0.9714,
+      "answer_relevancy": 0.8388,
+      "context_recall": 0.4773,
+      "context_precision": 0.9318
     },
     "STRUCTURED": {
-      "faithfulness": 0.2604,
-      "answer_relevancy": 0.875,
-      "context_recall": 0.8806,
-      "context_precision": 0.8387
+      "faithfulness": 0.1618,
+      "answer_relevancy": 0.9512,
+      "context_recall": 1.0,
+      "context_precision": 0.9706
     }
   }
 }

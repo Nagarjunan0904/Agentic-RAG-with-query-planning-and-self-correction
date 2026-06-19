@@ -166,7 +166,7 @@ def run_ragas(rows: list[dict]) -> dict:
     ]
     dataset = EvaluationDataset(samples=samples)
 
-    llm = ChatAnthropic(model=JUDGE_MODEL, api_key=ANTHROPIC_API_KEY)
+    llm = ChatAnthropic(model=JUDGE_MODEL, api_key=ANTHROPIC_API_KEY, max_tokens=2048)
     emb = _CohereEmbeddings(api_key=COHERE_API_KEY)
 
     ragas_llm = LangchainLLMWrapper(llm)
