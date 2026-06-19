@@ -18,28 +18,34 @@ MODEL = "claude-sonnet-4-5"
 log = logging.getLogger(__name__)
 
 PROMPT = """Classify the user query into exactly one of three retrieval strategies:
-- SEMANTIC: Questions about concepts, explanations, descriptions, comparisons, or anything requiring contextual understanding
-- KEYWORD: Factual lookups about specific named entities — who, when, where, which person
-- STRUCTURED: Queries requiring aggregation, counting, ranking, or computations over structured data
+
+- SEMANTIC: Use when the user wants an explanation, mechanism, comparison, or multi-faceted answer about a medical topic — e.g. what causes X, how does Y work, what are the symptoms of Z, how is X treated, what is the difference between X and Y. The answer requires synthesising across multiple sources and cannot be satisfied by a single reference entry.
+
+- KEYWORD: Use when the user is looking up a single named medical term, condition, drug, or test — even when phrased as "What is X?" — and the answer is the canonical reference summary for that exact term. Bare-term queries (a condition or drug name with no verb) are always KEYWORD. The key signal is that the user wants the encyclopaedia/glossary entry for one specific thing, not an explanation that requires reasoning or synthesis.
+
+- STRUCTURED: Use when the query requires aggregation, counting, ranking, or filtering over structured patient or clinical records — e.g. "how many", "most common", "average", "top N", queries about the patient database.
 
 Examples:
-Q: What are the health benefits of green tea?
-Strategy: SEMANTIC
-
-Q: How does photosynthesis work?
-Strategy: SEMANTIC
-
-Q: What is machine learning?
-Strategy: SEMANTIC
-
-Q: Who is the CEO of Apple?
+Q: What is hypertension?
 Strategy: KEYWORD
 
-Q: When was the Eiffel Tower built?
+Q: hypertension
 Strategy: KEYWORD
 
-Q: Where is the Louvre museum located?
+Q: asthma treatment guidelines
 Strategy: KEYWORD
+
+Q: What is A1C?
+Strategy: KEYWORD
+
+Q: What are the symptoms of type 2 diabetes and how does it differ from type 1?
+Strategy: SEMANTIC
+
+Q: How is Alzheimer's disease treated?
+Strategy: SEMANTIC
+
+Q: What causes chronic kidney disease?
+Strategy: SEMANTIC
 
 Q: How many patients are in the database?
 Strategy: STRUCTURED
@@ -47,7 +53,7 @@ Strategy: STRUCTURED
 Q: What is the most common condition among patients?
 Strategy: STRUCTURED
 
-Q: What are the top 5 most prescribed medications?
+Q: What is the most prescribed medication?
 Strategy: STRUCTURED
 
 Now classify this query:

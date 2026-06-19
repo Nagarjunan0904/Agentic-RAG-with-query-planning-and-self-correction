@@ -3,8 +3,8 @@ import { useState } from 'react'
 const EXAMPLES = [
   { label: 'What are the symptoms of type 2 diabetes?',         type: 'SEMANTIC'    },
   { label: "How is Alzheimer's disease treated?",               type: 'SEMANTIC'    },
-  { label: 'What is hypertension?',                             type: 'KEYWORD'     },
-  { label: 'Find information on asthma',                        type: 'KEYWORD'     },
+  { label: 'hypertension',                                      type: 'KEYWORD'     },
+  { label: 'asthma treatment guidelines',                       type: 'KEYWORD'     },
   { label: 'What is the most common condition among patients?', type: 'STRUCTURED'  },
   { label: 'What is the most prescribed medication?',           type: 'STRUCTURED'  },
 ]
